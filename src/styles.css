@@ -406,3 +406,197 @@ button:hover, .button-link:hover {
   .button-grid, .stats, .meta-grid { grid-template-columns: 1fr; }
   .sidebar-content { padding: 26px 18px 20px; }
 }
+
+
+/* v2 product UX enhancements */
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.quick-actions button {
+  border: 1px solid rgba(63, 50, 39, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+  color: #3b3027;
+  border-radius: 999px;
+  padding: 9px 10px;
+  font-size: 0.84rem;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+
+.quick-actions button:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(108, 64, 56, 0.22);
+}
+
+.region-legend {
+  display: grid;
+  gap: 6px;
+  margin: -4px 0 18px;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(63, 50, 39, 0.08);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.region-legend span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.region-legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  box-shadow: 0 0 0 3px rgba(63, 50, 39, 0.06);
+}
+
+.hero-image {
+  margin: 0 0 18px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(63, 50, 39, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 16px 32px rgba(63, 50, 39, 0.1);
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: clamp(180px, 26vh, 260px);
+  object-fit: cover;
+}
+
+.hero-image figcaption {
+  display: block;
+  padding: 10px 12px 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.hero-image figcaption small {
+  display: block;
+  margin-top: 4px;
+}
+
+.hero-image figcaption a {
+  color: var(--accent-2);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-placeholder {
+  position: relative;
+  margin: 0 0 18px;
+  min-height: 170px;
+  border-radius: 22px;
+  padding: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(63, 50, 39, 0.1);
+  background:
+    radial-gradient(circle at 72% 18%, color-mix(in srgb, var(--region-color), transparent 65%), transparent 36%),
+    repeating-linear-gradient(135deg, rgba(63, 50, 39, 0.04) 0, rgba(63, 50, 39, 0.04) 1px, transparent 1px, transparent 9px),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.74), rgba(241, 232, 221, 0.86));
+}
+
+.hero-placeholder::after {
+  content: "";
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  width: 70px;
+  height: 70px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--region-color), transparent 40%);
+  box-shadow: inset 0 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+.hero-placeholder span {
+  display: inline-flex;
+  margin-bottom: 14px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--region-color), white 78%);
+  color: #352920;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.hero-placeholder strong {
+  display: block;
+  max-width: 72%;
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 1.6rem;
+  line-height: 1.12;
+  color: #261f1a;
+}
+
+.hero-placeholder small {
+  display: block;
+  max-width: 72%;
+  margin-top: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.highlight-list {
+  margin: 8px 0 18px;
+  padding: 14px 16px 14px 32px;
+  border-radius: 18px;
+  border: 1px solid rgba(63, 50, 39, 0.08);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.highlight-list li {
+  margin: 7px 0;
+  color: #4f4338;
+  line-height: 1.58;
+}
+
+.sidebar h3 {
+  margin: 20px 0 10px;
+  color: #4d4034;
+  font-size: 0.82rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.section-block {
+  gap: 10px;
+}
+
+.note-card {
+  border-radius: 18px;
+  padding: 14px 15px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(63, 50, 39, 0.08);
+}
+
+.note-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #3c3027;
+}
+
+.note-card span {
+  display: block;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+@supports not (background: color-mix(in srgb, red, white)) {
+  .hero-placeholder {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.74), rgba(241, 232, 221, 0.86));
+  }
+  .hero-placeholder span {
+    background: rgba(214, 189, 139, 0.28);
+  }
+}

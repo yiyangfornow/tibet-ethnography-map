@@ -955,11 +955,11 @@
           "sacred_landscape"
         ],
         "tradition": [],
-        "era": null,
-        "summary_short": "古格王国遗址坐落于札达土林之中，是西藏西部政治史、堡寨建筑、壁画艺术与跨区域交流的关键遗存。",
-        "details": "古格遗址最容易被写成“消失王国”的神秘故事，但更重要的是它如何把王宫、寺庙、民居、防御和壁画组织在同一座山体城市中。官方资料称古格王朝存在于公元9世纪到17世纪，遗址佛殿壁画受多种文化影响，能体现古格与周边区域交流的痕迹。",
+        "era": "10th–17th century / 古格王朝时期；1961年列入全国重点文物保护单位",
+        "summary_short": "古格王国遗址 / 札布让是西藏西部最重要的王国遗址之一。它不是单一废墟，而是王宫、寺庙、民居、洞窟、防御结构、壁画和土林地貌叠合成的山体城市。",
+        "details": "古格遗址常被包装成“消失王国”，但更有价值的读法是：它如何把政治权力、佛教艺术、贸易通道、防御需求和干旱地貌组织到同一座山体空间中。官方资料称古格王朝存在于公元9世纪到17世纪，遗址被认为是古格都城所在；遗存佛殿壁画受多种文化影响，能说明古格与周边区域之间的交流。CCTV资料还提到红庙、白庙、轮回庙等殿堂壁画以及被称为“古格银眼”的雕塑传统。",
         "story_angle": "王朝遗址、城堡聚落、消失王国叙事",
-        "craft_or_practice": "壁画、城堡防御结构、王室与寺院遗存",
+        "craft_or_practice": "红庙、白庙、轮回庙壁画；山体城堡；洞窟；佛塔；古格雕塑与“古格银眼”线索",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "public",
@@ -968,22 +968,40 @@
           "wikidata_osm_seed",
           "editorial_seed",
           "ali_guge_ruins",
-          "ali_thousand_heartbeat"
+          "ali_thousand_heartbeat",
+          "cctv_guge_murals",
+          "npc_guge_ruins",
+          "commons_tsaparang"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
         "body_sections": [
           {
-            "title": "编辑提醒",
-            "body": "可以保留“秘堡”感，但不要让神秘化叙事替代历史结构：王权、寺院、贸易、战争、生态环境都应进入解释框架。"
+            "title": "建筑格局",
+            "body": "适合用剖面式叙事呈现：山脚、半山、山顶分别对应民居、寺庙与王宫/防御空间。地图上可以用故事线把它与托林寺和札达土林串联，而不是只放一个 pin。"
           },
           {
-            "title": "地图关系",
-            "body": "与托林寺、札达土林、皮央东嘎石窟形成“古格—石窟—土林”专题线。"
+            "title": "壁画与雕塑",
+            "body": "公开资料提到红庙、白庙、轮回庙等空间中的壁画与雕刻造像。需要注意：用户提到的“魔女图/镇魔图”更稳妥地作为藏族地理观专题处理，目前不宜直接写成古格遗址核心壁画，除非后续找到明确出处。"
+          },
+          {
+            "title": "编辑提醒",
+            "body": "避免过度神秘化“消失王国”。应同时写王权结构、寺院制度、边贸与战争、生态环境、艺术风格和文物保护。"
           }
         ],
         "route_ids": [
           "ngari_plateau_arc"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tsaparang%20citadel.jpg?width=1200",
+        "image_alt": "古格王国遗址 / 札布让山体遗址",
+        "image_caption": "古格王国遗址 / 札布让：山体城市、佛殿与居住遗迹叠合在土林地貌中。",
+        "image_credit": "Wikimedia Commons, Tsaparang category; check file page for author/license before publication.",
+        "image_source_url": "https://commons.wikimedia.org/wiki/Category:Tsaparang",
+        "highlights": [
+          "山体分层：上部王宫、中部寺庙、下部民居与洞窟",
+          "壁画题材涉及佛教图像、王室礼佛、供养人和社会生活场景",
+          "艺术风格被认为带有克什米尔、犍陀罗及跨喜马拉雅影响",
+          "与托林寺、皮央东嘎石窟、札达土林共同构成“古格—石窟—土林”专题"
         ]
       }
     },
@@ -1010,11 +1028,11 @@
           "archive_print"
         ],
         "tradition": [],
-        "era": null,
-        "summary_short": "托林寺始建于公元996年，是古格王朝重要寺院，被称作阿里“第一寺”。它在西藏佛教后弘期、古格艺术和阿里寺院建筑史中占据核心位置。",
-        "details": "托林寺把阿里放入西藏佛教史的关键阶段：王权资助、译经网络、寺院制度和跨喜马拉雅艺术风格在这里汇合。官方资料提到寺院由益西沃创建，格局与早期佛教寺院传统有关，白殿等空间保存古格艺术壁画线索。地图上它应与古格王国遗址、皮央东嘎石窟和札达土林共同阅读。",
+        "era": "996 CE / 古格王国早期；白殿壁画主要保存15–16世纪图像层；1996年全国重点文物保护单位",
+        "summary_short": "托林寺始建于公元996年，位于札达县象泉河畔，是古格王国在阿里建立的重要佛寺，被称为阿里“第一寺”，也是后弘期佛教与古格艺术的核心现场。",
+        "details": "托林寺的价值在于它把王权、译经、寺院制度和艺术复兴连接起来。官方资料称其由益西沃创建，建筑融合印度、尼泊尔和西藏本地风格；白殿保存的古格艺术壁画色彩鲜艳、线条流畅。央广网关于托林寺白殿壁画数字化的报道还提到，白殿壁画面积约320平方米，反映藏传佛教艺术与多民族、跨地域艺术风格的交融，并通过高精度影像发现重要题记。",
         "story_angle": "后弘期寺院、古格艺术、制度与壁画",
-        "craft_or_practice": "古格壁画、寺院建筑、学修与法会记忆",
+        "craft_or_practice": "白殿壁画、红殿壁画、佛塔、经堂、译经与后弘期佛教记忆",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "public",
@@ -1024,22 +1042,40 @@
           "editorial_seed",
           "tholing_official",
           "ali_thousand_heartbeat",
-          "ali_region_ethnic_religion"
+          "ali_region_ethnic_religion",
+          "cnr_tholing_white_temple_archive",
+          "tibetology_tholing_red_hall",
+          "commons_tholing"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
         "body_sections": [
           {
-            "title": "可视化重点",
-            "body": "不只标寺院位置，更要呈现托林寺与札达土林、象泉河谷、古格都城遗址之间的距离和视线关系。"
+            "title": "寺内看点",
+            "body": "白殿壁画、红殿壁画、佛塔与经堂。若后续添加图片，建议优先放建筑外观和局部壁画授权图，不要使用无授权的殿内偷拍图。"
           },
           {
-            "title": "继续扩写方向",
-            "body": "益西沃、仁钦桑布、阿底峡、后弘期译经、白殿壁画与古格艺术。"
+            "title": "为什么重要",
+            "body": "托林寺不是普通寺庙，它是古格政教中心、后弘期佛教复兴和阿里艺术传统之间的枢纽。"
+          },
+          {
+            "title": "数字化保护",
+            "body": "白殿壁画已有高精度数字档案报道；这种保护线索很适合放入“文物如何被保存与再观看”的现代民族志叙事。"
           }
         ],
         "route_ids": [
           "ngari_plateau_arc"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tholing%20monastery%20%28Tibet%29%20Dieter%20Schuh.JPG?width=1200",
+        "image_alt": "托林寺外观",
+        "image_caption": "托林寺位于札达托林镇，是古格王朝与后弘期佛教史的重要寺院。",
+        "image_credit": "Photo by Dieter Schuh, Wikimedia Commons; check file page for license before publication.",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Tholing_monastery_(Tibet)_Dieter_Schuh.JPG",
+        "highlights": [
+          "996年创建，是阿里最早和最重要的寺院之一",
+          "与益西沃、仁钦桑布、阿底峡入藏传法等后弘期叙事有关",
+          "白殿壁画约320平方米，已建立高精度数字档案",
+          "红殿壁画研究可作为理解古格王室礼仪空间和政教结构的入口"
         ]
       }
     },
@@ -1080,7 +1116,8 @@
           "editorial_seed",
           "ali_a_level_scenic",
           "purang_profile",
-          "britannica_kailash"
+          "britannica_kailash",
+          "commons_kailash_manasarovar"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -1096,6 +1133,16 @@
         ],
         "route_ids": [
           "ngari_plateau_arc"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yaks-Kailash-Manasarovar.jpg?width=1200",
+        "image_alt": "玛旁雍错与远处冈仁波齐",
+        "image_caption": "冈仁波齐与玛旁雍错构成阿里最具跨地域意义的神山圣湖地景。",
+        "image_credit": "Jean-Marie Hullot, CC BY-SA 4.0, Wikimedia Commons.",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Yaks-Kailash-Manasarovar.jpg",
+        "highlights": [
+          "被佛教、苯教、印度教、耆那教等多重传统赋予神圣意义",
+          "与玛旁雍错、拉昂错、曲普温泉、塔钦共同构成朝圣地景网络",
+          "地图中应避免提供过度导航化的敏感路线，而以文化地景解释为主"
         ]
       }
     },
@@ -1137,7 +1184,8 @@
           "ali_manasarovar_water",
           "ali_a_level_scenic",
           "purang_profile",
-          "britannica_kailash"
+          "britannica_kailash",
+          "commons_kailash_manasarovar"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -1153,6 +1201,16 @@
         ],
         "route_ids": [
           "ngari_plateau_arc"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mount%20Kailash%20sunset%20from%20Manasarovar%20lake.jpg?width=1200",
+        "image_alt": "玛旁雍错湖畔远望冈仁波齐",
+        "image_caption": "玛旁雍错：高海拔湖盆、圣湖叙事与朝圣身体经验相交汇。",
+        "image_credit": "Wikimedia Commons; check file page for author/license before publication.",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Mount_Kailash_sunset_from_Manasarovar_lake.jpg",
+        "highlights": [
+          "高海拔淡水湖；与冈仁波齐、纳木那尼峰共同构成山湖地景",
+          "水利资料提到湖泊位于冈底斯山与喜马拉雅山之间的湖盆环境",
+          "适合展示环湖朝圣、湖岸供奉与自然地理之间的关系"
         ]
       }
     },
@@ -2946,22 +3004,26 @@
           "pilgrimage"
         ],
         "tradition": [
-          "Sakya",
-          "borderland pilgrimage"
+          "Sakya / 萨迦派线索",
+          "post-diffusion Buddhism / 后弘期佛教"
         ],
-        "era": "996 CE / 后弘期以来",
-        "summary_short": "科迦寺位于普兰县科迦村，是阿里西南边境最重要的千年寺院之一。它与科迦村的形成、跨境朝拜、边贸记忆和后弘期佛教传播紧密相连。",
-        "details": "科迦寺不是孤立的“景点”，而是村落空间的核心。官方资料称科迦村“先有科迦寺后有科迦村”，寺院创建于公元996年前后，与仁钦桑布、后弘期佛教以及普兰作为中国、尼泊尔、印度交界地带的文化交流有关。把它放在地图上时，建议同时呈现寺院、村落、边境市场、节庆与藏戏/宣舞之间的关系。",
+        "era": "996 CE / 后弘期早期；后世多次维修",
+        "summary_short": "科迦寺位于普兰县科迦村，距离普兰县城约13公里，是普兰边境文化、后弘期佛教、村落节庆与跨境朝拜共同交汇的千年寺院。",
+        "details": "科迦寺的重点不是“边境古寺”四个字，而是寺院如何塑造村落。阿里官方资料称科迦村“先有科迦寺后有科迦村”，寺院创建于公元996年前后，与大译师仁钦桑布相关；后续资料还提到，寺内以木雕、壁画和唐卡见长，建筑和壁画融合多种文化元素，反映普兰作为古代贸易和文化交流枢纽的位置。",
         "story_angle": "边境寺院、后弘期佛教、村寺共生",
-        "craft_or_practice": "壁画、木构、跨境朝拜与节庆活动",
+        "craft_or_practice": "木雕、壁画、唐卡、跨境朝拜、科迦藏戏与节庆活动",
         "body_sections": [
           {
-            "title": "为什么放在民族志地图里",
-            "body": "它能体现“村因寺而成”的空间关系：宗教建筑、村落生活、边境贸易与跨境朝拜在同一地点叠合。"
+            "title": "建立与空间关系",
+            "body": "科迦寺被描述为普兰县科迦村的中心节点。村落与寺院不是两个分离对象，而是宗教建筑、边境贸易、节庆演出与日常居住共同构成的文化空间。"
           },
           {
-            "title": "可继续补充",
-            "body": "科迦寺壁画、木构、百柱殿、科迦藏戏团、普兰口岸与唐嘎边贸市场之间的历史联系。"
+            "title": "寺内特色",
+            "body": "重点应写木雕、壁画、唐卡、早期建筑构件与跨地域艺术风格。由于涉及保护状态，公开版不建议标注未开放殿堂或可触达文物细节。"
+          },
+          {
+            "title": "民族志问题",
+            "body": "谁负责寺院节庆？谁讲述科迦藏戏和宣舞？跨境朝拜如何改变村落经济与日常节奏？这些问题能让卡片从旅游介绍变成民族志入口。"
           }
         ],
         "coordinate_confidence": "approximate",
@@ -2976,7 +3038,14 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "highlights": [
+          "996年前后创建；与仁钦桑布及后弘期佛教传播有关",
+          "村寺共生：科迦村围绕寺院形成，村名与寺名相互解释",
+          "寺内看点包括木雕、壁画、唐卡与边境文化交流痕迹",
+          "周边可串联普兰口岸、唐嘎边贸市场、普兰服饰与宣舞"
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     },
     {
@@ -3008,17 +3077,17 @@
         ],
         "era": "活态传统 / 2008年国家级非遗相关项目",
         "summary_short": "普兰服饰与宣舞是阿里活态非遗的核心线索之一：珠宝、羊毛织物、刺绣与披风构成“飞天/孔雀”服饰，宣舞则以说、唱、跳结合的方式在节庆与仪式中呈现。",
-        "details": "普兰服饰已有上千年历史，最具代表性的女性“飞天服饰”或“孔雀服饰”常见于科迦村等地的节庆展示。宣舞在阿里多地流传，官方资料将其描述为具有象雄文化特色的民间传统艺术，包含说唱、舞蹈、仪式与节庆内容。这个点位应避免仅做“漂亮服饰展示”，而要写出服饰、身体、珠宝、家族传承、村落仪式和女性劳动之间的关系。",
+        "details": "普兰服饰已有上千年历史，最具代表性的女性“飞天服饰”或“孔雀服饰”常见于科迦村等地的节庆展示。官方资料称宣舞具有象雄文化特色，融合藏戏、舞蹈、说唱等形式，内容涵盖宗教、礼仪、风俗、节庆。这个点位应避免只写“好看”，要写服饰如何被家族保管、如何在村落仪式中穿戴、谁负责唱词与舞步传承。",
         "story_angle": "活态非遗、服饰与舞蹈一体、边境村落日常",
         "craft_or_practice": "孔雀/飞天服饰、宣舞、节庆展示、口传唱词",
         "body_sections": [
           {
-            "title": "视觉元素",
-            "body": "孔雀式披展轮廓、红/蓝/金等高对比色、松石、珊瑚、玛瑙、珍珠、蜜蜡等装饰材料。"
+            "title": "服饰不是装饰品",
+            "body": "它牵涉家族记忆、财富象征、手工材料、性别分工与节庆权威。建议未来加入“谁保管、谁穿戴、何时穿、如何修补”的田野问题。"
           },
           {
-            "title": "民族志问题",
-            "body": "谁保管服饰？什么时候穿？谁负责穿戴、维护和解释？舞蹈唱词如何在村落中传承？这些问题比“服饰有多重”更重要。"
+            "title": "宣舞的身体知识",
+            "body": "宣舞不是舞台化表演而已，它保存了地方唱词、队列、乐器、步伐与仪式秩序。地图可把它和古格壁画中的舞蹈图像线索连接。"
           }
         ],
         "coordinate_confidence": "approximate",
@@ -3033,7 +3102,13 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "highlights": [
+          "普兰服饰含头饰、项链、耳坠、袍子、披风、靴子等组成部分",
+          "宣舞以说、唱、跳结合，常在节庆和仪式中呈现",
+          "科迦村展示场景可与科迦寺、边境文化和村落身份相连"
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     },
     {
@@ -3088,7 +3163,8 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     },
     {
@@ -3117,18 +3193,18 @@
           "geological landscape"
         ],
         "era": "第三系地层风化地貌 / 国家地质公园",
-        "summary_short": "札达土林是阿里最具辨识度的自然地理景观之一。沟壑、土柱、土塔与古堡般的地貌，使古格遗址和皮央东嘎石窟获得了独特的视觉背景。",
-        "details": "官方资料称札达土林位于札达县境内，沉积厚度达数千米，并被列为国家地质公园。它不是古格遗址的“背景板”，而是决定人类聚落、交通、视线、防御和洞窟开凿条件的地理结构。地图应让用户看到自然地理与历史文化如何共同成形。",
+        "summary_short": "札达土林是阿里最具辨识度的自然地理景观之一。沟壑、土柱、土塔与古堡般的地貌，使古格遗址和皮央东嘎石窟获得了独特的空间背景。",
+        "details": "札达土林不只是“壮观风景”。札达县政府资料提到，它位于札达县境内，沉积厚度达数千米，并被列为国家地质公园。对于民族志地图来说，土林解释了为什么遗址、洞窟、视线、防御和道路会以这种方式组织。它应作为自然地理图层的核心点。",
         "story_angle": "土林地貌、地质公园、景观与历史共构",
         "craft_or_practice": "地景观察、摄影、地貌与遗址关联叙事",
         "body_sections": [
           {
-            "title": "视觉叙事",
-            "body": "可使用土色、阴影、峡谷纹理、地貌剖面等设计语言，把“土林”从风景照片转化为解释性地景。"
+            "title": "自然地理如何影响文化",
+            "body": "土林不是背景，而是人类活动的条件：它影响聚落选址、洞窟开凿、防御视线、交通路径和遗址的视觉震撼。"
           },
           {
-            "title": "继续扩充",
-            "body": "补充成因、典型观景点、地质公园范围、与象泉河谷的关系。"
+            "title": "后续可视化",
+            "body": "建议新增一张“札达土林—古格—皮央东嘎”示意剖面，让用户理解自然地貌与历史遗址的关系。"
           }
         ],
         "coordinate_confidence": "approximate",
@@ -3142,6 +3218,16 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tulin%20Landform%20in%20Guge%20ruins.jpg?width=1200",
+        "image_alt": "札达土林地貌",
+        "image_caption": "札达土林：地貌不是背景，而是古格遗址与石窟群的空间条件。",
+        "image_credit": "Wikimedia Commons; check file page for author/license before publication.",
+        "image_source_url": "https://commons.wikimedia.org/wiki/Category:Tholing_Monastery",
+        "highlights": [
+          "国家地质公园；土柱、土塔、沟壑组成古堡般景观",
+          "与古格遗址、托林寺、皮央东嘎石窟一起构成札达地景系统",
+          "适合加入地貌剖面、形成机制和观景关系说明"
         ]
       }
     },
@@ -3172,18 +3258,18 @@
           "Guge period Buddhist art"
         ],
         "era": "10世纪以后 / 1992年后进入公共视野",
-        "summary_short": "皮央石窟是“皮央和东嘎遗址”的重要组成部分，由寺院、城堡、石窟和塔林等遗存构成，是阿里佛教石窟艺术的重要节点。",
-        "details": "近年官方报道将皮央石窟称为“藏在土林里的艺术宝藏”。遗址与东嘎相邻，1992年以后进入更广泛的公众和文物保护视野，2013年被公布为全国重点文物保护单位的一部分。它适合放在“守护、发现、保护与传递”的专题中，而不是只做旅游攻略。",
+        "summary_short": "皮央石窟是“皮央和东嘎遗址”的重要组成部分，位于札达土林地貌之中，由寺院、城堡、石窟和塔林等遗存构成，是阿里佛教石窟艺术的重要节点。",
+        "details": "官方报道将皮央石窟称为“藏在土林里的艺术宝藏”。遗址与东嘎相邻，1992年以后进入更广泛的文物保护视野，并在2013年成为全国重点文物保护单位的一部分。石窟内壁画题材可涉及佛、菩萨、飞天、供养人、动物、植物和装饰纹样等，正式公开时不建议发布未开放洞窟和脆弱壁画的精确进入方式。",
         "story_angle": "石窟群、古格时期艺术、土林中的宗教遗存",
         "craft_or_practice": "壁画、石窟开凿、佛教图像与保护修复",
         "body_sections": [
           {
             "title": "看什么",
-            "body": "洞窟、壁画、山崖、土林、塔林，以及守护人和文物工作者如何让遗址从地方记忆进入公共文化视野。"
+            "body": "洞窟、壁画、山崖、塔林、土林，以及守护人和文物工作者如何让遗址进入公共文化视野。"
           },
           {
-            "title": "敏感性",
-            "body": "不要发布未开放洞窟、保护薄弱点、壁画近距离细节和可能诱导破坏的路线。"
+            "title": "保护边界",
+            "body": "不要把洞窟编号、未开放地点、壁画近距离细节和脆弱路线做成导航式公开信息。"
           }
         ],
         "coordinate_confidence": "approximate",
@@ -3196,7 +3282,13 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "highlights": [
+          "与东嘎共同构成阿里重要石窟壁画遗址群",
+          "地貌上嵌入札达土林，适合做“土林中的艺术宝藏”专题",
+          "可从守窟人、文物普查、国家级保护和公众参观四条线讲述"
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     },
     {
@@ -3226,18 +3318,18 @@
           "Guge period Buddhist art"
         ],
         "era": "10世纪以后 / 1992年后进入公共视野",
-        "summary_short": "东嘎石窟与皮央石窟共同构成阿里重要石窟壁画遗址群。它们让札达不只是“古格遗址所在地”，也是西藏西部艺术史和考古保护的重要场域。",
-        "details": "官方报道提到，守窟人从1980年代末开始守护石窟，而这些遗址直到1992年才被文物普查队发现。这个点位特别适合呈现“地方守护—考古发现—国家级保护—公众传播”的时间线。",
+        "summary_short": "东嘎石窟与皮央石窟共同构成阿里重要石窟壁画遗址群。它们让札达不只是古格遗址所在地，也是西藏西部艺术史与文物保护的重要场域。",
+        "details": "东嘎石窟尤其适合写“地方守护—考古发现—国家级保护—公众传播”的时间线。官方报道提到守窟人长期看护石窟，而这些遗址直到1992年才被文物普查队发现。与其罗列洞窟数量，不如写天气、钥匙、巡查、讲解与代际传递。",
         "story_angle": "石窟保护、壁画遗存、阿里考古",
         "craft_or_practice": "守窟、壁画保护、遗址讲解",
         "body_sections": [
           {
             "title": "民族志角度",
-            "body": "记录守窟人的日常、天气、钥匙、巡查、讲解和代际传递，比单纯罗列洞窟数量更有温度。"
+            "body": "守窟人的日常、巡查路线、游客解释和保护压力，是让遗址从“古迹”变成“活的文化现场”的关键。"
           },
           {
-            "title": "与皮央的关系",
-            "body": "建议在网站中把东嘎与皮央分成两个点，同时在故事线里合并为一个遗址群。"
+            "title": "与古格关系",
+            "body": "东嘎、皮央、托林寺和古格遗址共同构成札达历史文化地景，而不是彼此孤立的景点。"
           }
         ],
         "coordinate_confidence": "approximate",
@@ -3250,7 +3342,13 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "highlights": [
+          "与皮央石窟共同构成遗址群",
+          "1992年文物普查后进入更广泛视野",
+          "适合做“守窟人”与文物保护的人文叙事"
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     },
     {
@@ -3305,7 +3403,8 @@
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
-        ]
+        ],
+        "visual_theme": "ngari_placeholder"
       }
     }
   ]

@@ -456,14 +456,19 @@
           "intangible_heritage"
         ],
         "summary_short": "从普兰边境村落、冈仁波齐—玛旁雍错，到札达的托林寺、古格遗址与皮央东嘎石窟。",
-        "details": "这条线不是导航路线，而是阿里专题叙事线：用圣山圣湖、边境寺院、活态非遗、土林地貌、古格遗址与石窟群串联西部藏地的宗教、历史与自然地理。",
+        "details": "阿里专题线从普兰边境村落出发，经冈仁波齐—玛旁雍错—拉昂错—曲普温泉，进入札达的托林寺、古格遗址、札达土林与皮央东嘎石窟。它把宗教、非遗、王国遗址、石窟壁画和自然地貌放在同一条阅读路径里。",
         "source_ids": [
           "ali_thousand_heartbeat",
           "ali_a_level_scenic",
           "zhada_earth_forest",
           "piyang_donggar_official"
         ],
-        "sensitivity": "public"
+        "sensitivity": "public",
+        "highlights": [
+          "普兰：科迦寺、普兰服饰与宣舞、边境文化",
+          "神山圣湖：冈仁波齐、玛旁雍错、拉昂错、曲普温泉",
+          "札达：托林寺、古格王国遗址、札达土林、皮央东嘎石窟"
+        ]
       }
     }
   ]

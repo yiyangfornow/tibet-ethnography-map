@@ -35,6 +35,19 @@
     <label class="field-label" for="region-select">区域</label>
     <select id="region-select"></select>
 
+    <label class="field-label" for="color-mode">地图颜色</label>
+    <select id="color-mode">
+      <option value="region" selected>按文化区域着色</option>
+      <option value="category">按内容图层着色</option>
+    </select>
+
+    <div class="quick-actions" aria-label="推荐入口">
+      <button type="button" data-preset="ngari">阿里专题</button>
+      <button type="button" data-preset="guge">古格与土林</button>
+      <button type="button" data-preset="pilgrimage">神山圣湖</button>
+      <button type="button" data-preset="heritage">非遗服饰/宣舞</button>
+    </div>
+
     <div class="section-heading">
       <span>图层</span>
       <button id="toggle-all" class="ghost-button">全选 / 取消</button>
@@ -68,9 +81,9 @@
     <button id="close-sidebar" class="close-sidebar" aria-label="关闭详情">×</button>
     <div id="sidebar-content" class="sidebar-content">
       <p class="eyebrow">欢迎</p>
-      <h2>点击地图上的点位或故事线</h2>
+      <h2>点击地图上的点位、故事线或推荐入口</h2>
       <p>
-        这个原型强调“资料可追溯”：每个点位都带有来源、坐标可信度、内容可信度与敏感度标签。阿里点位已加入更完整的专题卡片。
+        这个原型强调“资料可追溯”：每个点位都带有来源、坐标可信度、内容可信度与敏感度标签。阿里点位已加入更完整的专题卡片、图片位、看点清单和文化区域配色。
       </p>
       <p class="hint">
         公开发布前，请逐笔核对藏文名、经纬度、历史叙述、图片授权与社区敏感性。

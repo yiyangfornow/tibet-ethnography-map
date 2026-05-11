@@ -160,5 +160,53 @@
     "url": "https://www.britannica.com/place/Mount-Kailash",
     "type": "encyclopedic_reference",
     "note": "Cross-religious and geographic reference for Mount Kailash, Manasarovar and Rakshastal context."
+  },
+  "cnr_tholing_white_temple_archive": {
+    "title": "央广网：西藏托林寺白殿壁画建成高精度数字档案",
+    "url": "https://www.cnr.cn/xz/jrxz/20170815/t20170815_523901837.shtml",
+    "type": "heritage_digitization",
+    "note": "托林寺白殿壁画年代、面积、数字化保护与图像题记发现。"
+  },
+  "tibetology_tholing_red_hall": {
+    "title": "中国藏学网：托林寺红殿壁画研究：历史、图像与文本",
+    "url": "https://www.tibetology.ac.cn/2024-02/25/content_42705088.htm",
+    "type": "research_book_notice",
+    "note": "托林寺红殿、古格王室礼仪空间与后弘期艺术传统研究线索。"
+  },
+  "cctv_guge_murals": {
+    "title": "CCTV：寻访古格王朝——独特宏大的古格壁画",
+    "url": "https://www.cctv.com/geography/guge/sanji/zoujin05.html",
+    "type": "media_archive",
+    "note": "古格遗址建筑分层、红庙白庙轮回庙与“古格银眼”等壁画/雕塑介绍。"
+  },
+  "npc_guge_ruins": {
+    "title": "中国人大网：失落的文明：古格遗址",
+    "url": "https://www.npc.gov.cn/WZWSREL3pncmR3L25wY96dC9xdC94emRidGNmbWovMjAwOS0wMy8xOC9jb250ZW50XzE0OTM4OTQuaHRt",
+    "type": "heritage_article",
+    "note": "古格遗址规模、建筑分层、壁画和雕塑价值。"
+  },
+  "amdotibet_demoness_map": {
+    "title": "安多藏区网：关于罗刹女仰卧图的人类学分析",
+    "url": "https://www.amdotibet.com/history/zhuanti/2024-07-31/23734.html",
+    "type": "research_summary",
+    "note": "罗刹女仰卧图/镇魔图作为藏族传统地理观的专题线索。"
+  },
+  "commons_tsaparang": {
+    "title": "Wikimedia Commons: Category Tsaparang",
+    "url": "https://commons.wikimedia.org/wiki/Category:Tsaparang",
+    "type": "cc_image_repository",
+    "note": "古格/札布让遗址开放授权图像目录，使用时需保留作者与许可说明。"
+  },
+  "commons_tholing": {
+    "title": "Wikimedia Commons: Category Tholing Monastery",
+    "url": "https://commons.wikimedia.org/wiki/Category:Tholing_Monastery",
+    "type": "cc_image_repository",
+    "note": "托林寺开放授权图像目录，使用时需保留作者与许可说明。"
+  },
+  "commons_kailash_manasarovar": {
+    "title": "Wikimedia Commons: Yaks-Kailash-Manasarovar.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Yaks-Kailash-Manasarovar.jpg",
+    "type": "cc_image_repository",
+    "note": "冈仁波齐与玛旁雍错 CC BY-SA 4.0 图像，作者 Jean-Marie Hullot。"
   }
 }

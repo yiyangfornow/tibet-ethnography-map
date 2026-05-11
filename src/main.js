@@ -30,6 +30,26 @@ const CATEGORY_COLORS = {
   natural_geography: '#8f8b7a'
 };
 
+const REGION_COLORS = {
+  u_tsang: '#8f5f38',
+  ngari: '#6c4038',
+  kham: '#9a6d45',
+  amdo: '#7f9691',
+  himalayan: '#6e7f76',
+  bhutan_sikkim: '#8c7a5c',
+  diaspora_crossroads: '#7c6558'
+};
+
+const CULTURE_REGION_LABELS = {
+  u_tsang: '卫藏',
+  ngari: '阿里',
+  kham: '康区',
+  amdo: '安多',
+  himalayan: '喜马拉雅',
+  bhutan_sikkim: '不丹—锡金',
+  diaspora_crossroads: '流动节点'
+};
+
 const state = {
   allPlaces: null,
   allRoutes: null,
@@ -39,6 +59,7 @@ const state = {
   activeCategories: new Set(CATEGORY_ORDER),
   query: '',
   region: 'all',
+  colorMode: 'region',
   filteredPlaces: [],
   filteredRoutes: []
 };
@@ -60,6 +81,7 @@ const els = {
   search: document.getElementById('search-input'),
   clearSearch: document.getElementById('clear-search'),
   region: document.getElementById('region-select'),
+  colorMode: document.getElementById('color-mode'),
   categories: document.getElementById('category-list'),
   toggleAll: document.getElementById('toggle-all'),
   fitVisible: document.getElementById('fit-visible'),
@@ -194,6 +216,29 @@ function categoryExpression() {
   return expression;
 }
 
+function regionColor(key) {
+  return REGION_COLORS[key] || '#8f5f38';
+}
+
+function regionExpression() {
+  const expression = ['match', ['get', 'region_key']];
+  for (const [key, color] of Object.entries(REGION_COLORS)) {
+    expression.push(key, color);
+  }
+  expression.push('#8f5f38');
+  return expression;
+}
+
+function colorExpression() {
+  return state.colorMode === 'category' ? categoryExpression() : regionExpression();
+}
+
+function updateMapColorMode() {
+  if (!map.getLayer('unclustered-points')) return;
+  map.setPaintProperty('unclustered-points', 'circle-color', colorExpression());
+  map.setPaintProperty('route-line', 'line-color', colorExpression());
+}
+
 function addDataLayers() {
   map.addSource('routes', {
     type: 'geojson',
@@ -215,7 +260,7 @@ function addDataLayers() {
     type: 'line',
     source: 'routes',
     paint: {
-      'line-color': '#8f5f38',
+      'line-color': colorExpression(),
       'line-opacity': 0.78,
       'line-width': [
         'interpolate', ['linear'], ['zoom'],
@@ -280,7 +325,7 @@ function addDataLayers() {
     source: 'places',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': categoryExpression(),
+      'circle-color': colorExpression(),
       'circle-radius': [
         'interpolate', ['linear'], ['zoom'],
         3, 4.5,
@@ -415,6 +460,8 @@ function renderControls() {
     `;
   }).join('');
 
+  renderRegionLegend();
+
   els.story.innerHTML = `<option value="">选择一条叙事路线</option>` + state.allRoutes.features.map(feature => {
     const p = feature.properties || {};
     return `<option value="${escapeHTML(p.id)}">${escapeHTML(p.name_zh || p.name_en || p.id)}</option>`;
@@ -434,6 +481,18 @@ function renderControls() {
   els.region.addEventListener('change', () => {
     state.region = els.region.value;
     applyFilters({ fit: true });
+  });
+
+  if (els.colorMode) {
+    els.colorMode.addEventListener('change', () => {
+      state.colorMode = els.colorMode.value;
+      updateMapColorMode();
+      setStatus(state.colorMode === 'region' ? '地图已按文化区域着色。' : '地图已按内容图层着色。');
+    });
+  }
+
+  document.querySelectorAll('[data-preset]').forEach(button => {
+    button.addEventListener('click', () => applyPreset(button.dataset.preset));
   });
 
   els.categories.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
@@ -476,8 +535,47 @@ function renderControls() {
   });
 }
 
+function applyPreset(preset) {
+  state.query = '';
+  state.activeCategories = new Set(CATEGORY_ORDER.filter(key => state.categories[key]));
+
+  if (preset === 'ngari') {
+    state.region = 'ngari';
+    state.query = '';
+  } else if (preset === 'guge') {
+    state.region = 'ngari';
+    state.query = '札达';
+  } else if (preset === 'pilgrimage') {
+    state.region = 'all';
+    state.activeCategories = new Set(['pilgrimage', 'sacred_landscape']);
+    state.query = '';
+  } else if (preset === 'heritage') {
+    state.region = 'ngari';
+    state.activeCategories = new Set(['intangible_heritage', 'craft_practice']);
+    state.query = '普兰';
+  }
+
+  els.search.value = state.query;
+  syncControls();
+  applyFilters({ fit: true });
+}
+
+function renderRegionLegend() {
+  const host = document.querySelector('.quick-actions');
+  if (!host || document.querySelector('.region-legend')) return;
+  const legend = document.createElement('div');
+  legend.className = 'region-legend';
+  legend.innerHTML = Object.entries(state.regions).map(([key, label]) => `
+    <span><i style="background:${regionColor(key)}"></i>${escapeHTML(label)}</span>
+  `).join('');
+  host.insertAdjacentElement('afterend', legend);
+}
+
 function syncControls() {
+
+
   els.region.value = state.region;
+  if (els.colorMode) els.colorMode.value = state.colorMode;
   els.categories.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
     checkbox.checked = state.activeCategories.has(checkbox.value);
   });
@@ -534,7 +632,41 @@ function renderBodySections(sections) {
   `;
 }
 
+function renderHeroImage(p) {
+  if (p.image_url) {
+    const credit = p.image_credit ? `<small>${escapeHTML(p.image_credit)}</small>` : '';
+    const source = p.image_source_url ? `<a href="${escapeHTML(p.image_source_url)}" target="_blank" rel="noopener">图片来源</a>` : '';
+    return `
+      <figure class="hero-image">
+        <img src="${escapeHTML(p.image_url)}" alt="${escapeHTML(p.image_alt || p.name_zh || p.name_en || '')}" loading="lazy" />
+        <figcaption>${escapeHTML(p.image_caption || '')} ${credit} ${source}</figcaption>
+      </figure>
+    `;
+  }
+  const regionKey = p.region_key || 'default';
+  const regionLabel = CULTURE_REGION_LABELS[regionKey] || p.region_label || 'Tibet ethnography';
+  return `
+    <div class="hero-placeholder" style="--region-color:${regionColor(regionKey)}">
+      <span>${escapeHTML(regionLabel)}</span>
+      <strong>${escapeHTML(p.name_zh || p.name_en || 'Ethnographic place')}</strong>
+      <small>图片位已预留：建议上传授权建筑/地景照片后，在 GeoJSON 中填写 image_url。</small>
+    </div>
+  `;
+}
+
+function renderHighlights(items) {
+  const list = asArray(items).filter(Boolean);
+  if (!list.length) return '';
+  return `
+    <h3>重点看点</h3>
+    <ul class="highlight-list">
+      ${list.map(item => `<li>${escapeHTML(item)}</li>`).join('')}
+    </ul>
+  `;
+}
+
 function renderSidebar(feature, type = 'place') {
+
   const p = feature.properties || {};
   const categories = new Set(asArray(p.categories));
   if (p.primary_category) categories.add(p.primary_category);
@@ -568,6 +700,7 @@ function renderSidebar(feature, type = 'place') {
   const reviewRow = p.review_status ? `<div><strong>审校状态</strong><span>${escapeHTML(p.review_status)}</span></div>` : '';
 
   els.sidebarContent.innerHTML = `
+    ${renderHeroImage(p)}
     <p class="eyebrow">${type === 'route' ? 'Story Route' : 'Ethnographic Place'}</p>
     <h2>${escapeHTML(p.name_zh || p.name_en || p.id)}</h2>
     ${tibetan}
@@ -577,6 +710,7 @@ function renderSidebar(feature, type = 'place') {
     </div>
     <p>${escapeHTML(p.summary_short || '')}</p>
     <p>${escapeHTML(p.details || '')}</p>
+    ${renderHighlights(p.highlights)}
     ${renderBodySections(p.body_sections)}
 
     <div class="meta-grid">
