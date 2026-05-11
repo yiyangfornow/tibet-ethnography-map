@@ -45,7 +45,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -71,9 +83,9 @@
           "pilgrimage"
         ],
         "tradition": [],
-        "era": null,
+        "era": "7世纪初建，后世多次修葺",
         "summary_short": "拉萨最重要的朝圣地标之一，和八廓转经空间构成密不可分的城市宗教核心。",
-        "details": "侧边栏可扩展为：建寺传说、佛像与朝圣叙事、八廓空间、节庆与日常供养。",
+        "details": "大昭寺是拉萨老城朝圣生活的核心。它既是佛教圣物、城市市场与转经路线的中心，也是多民族建筑风格交汇的空间。UNESCO 将其列入布达拉宫历史建筑群扩展项目，强调它的木石结构、壁画、佛像和历史文献价值。",
         "story_angle": "朝圣中心、城市核心、王朝记忆",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -82,10 +94,45 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "大昭寺",
+          "Jokhang",
+          "Tsuglagkhang",
+          "觉康"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jokhang%20Temple%2C%20also%20known%20as%20Tsuglagkhang%20Temple%2C%20Lhasa.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Jokhang_Temple,_also_known_as_Tsuglagkhang_Temple,_Lhasa.jpg",
+        "image_caption": "大昭寺建筑与朝圣广场。",
+        "image_alt": "大昭寺",
+        "image_credit": "Elbeaux / Wikimedia Commons, CC BY-SA 4.0",
+        "highlights": [
+          "7世纪拉萨核心朝圣寺院",
+          "与八廓转经空间紧密相连",
+          "可作为城市、朝圣与王权记忆的入口",
+          "七世纪建寺传统与文成公主/尼泊尔公主叙事",
+          "八廓转经路线与城市商业空间叠合",
+          "殿内壁画、佛像与多地域建筑影响"
+        ],
+        "body_sections": [
+          {
+            "title": "怎么讲给用户",
+            "body": "不要只写“拉萨景点”。更好的叙事是：大昭寺如何让拉萨形成一个围绕朝圣、供灯、市场与转经的城市中心。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Jokhang",
+          "Tsuglagkhang",
+          "八廓",
+          "尼泊尔公主",
+          "文成公主",
+          "祖拉康"
+        ]
       }
     },
     {
@@ -125,7 +172,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "朝圣 / 转经",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -151,9 +210,9 @@
           "settlement"
         ],
         "tradition": [],
-        "era": null,
+        "era": "7世纪渊源，17世纪形成现存宫堡主体",
         "summary_short": "拉萨山体宫堡建筑与政治宗教记忆的重要节点。",
-        "details": "第一版只放公开建筑与历史概述；深入内容应核对建筑史、壁画、制度史与图像授权。",
+        "details": "布达拉宫是宫堡、寺院、行政和视觉权力中心的复合体。UNESCO 描述其由白宫、红宫及附属建筑构成，包含大量壁画、唐卡、造像、经卷和金银器物。",
         "story_angle": "宫堡、城市天际线、政治宗教记忆",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -162,10 +221,37 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Potala%20Palace%20close%20up%20view.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Potala_Palace_close_up_view.jpg",
+        "image_caption": "布达拉宫近景。",
+        "image_alt": "布达拉宫",
+        "image_credit": "Rene Heise / Wikimedia Commons",
+        "highlights": [
+          "红山上的宫堡式建筑群",
+          "拉萨城市视觉中心",
+          "宗教、政治与建筑史叠合",
+          "红宫与白宫",
+          "达赖喇嘛冬宫与传统政教权力象征",
+          "壁画、唐卡、造像、经卷与金银器物"
+        ],
+        "body_sections": [
+          {
+            "title": "如何写得不旅游化",
+            "body": "不要只写“宏伟”。可写宫堡建筑、红宫/白宫空间、壁画、灵塔、城市视线和拉萨权力地景。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Potala",
+          "宫堡",
+          "白宫",
+          "红宫"
+        ]
       }
     },
     {
@@ -192,9 +278,9 @@
           "pilgrimage"
         ],
         "tradition": [],
-        "era": null,
+        "era": "15世纪",
         "summary_short": "格鲁派重要寺院之一，可作为寺院教育、僧团组织与拉萨郊区宗教地景的入口。",
-        "details": "后续可补充学院体系、辩经、节庆与山地空间关系。",
+        "details": "哲蚌寺是格鲁派重要寺院和大型学经传统空间。适合用来解释“寺院城市”与学经制度：僧院、扎仓、辩经、节庆和拉萨西郊山地环境共同构成它的文化意义。",
         "story_angle": "寺院教育、山地寺院、格鲁派",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -203,10 +289,37 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "highlights": [
+          "格鲁派重要寺院与学经空间",
+          "与雪顿节晒佛传统相关",
+          "适合呈现寺院教育与城市周边山地关系",
+          "格鲁派大学式寺院传统",
+          "扎仓与僧团教育",
+          "雪顿节、晒佛和拉萨寺院网络"
+        ],
+        "body_sections": [
+          {
+            "title": "寺院教育",
+            "body": "可以补扎仓、僧团学习、辩经、法会和节庆中的城市参与。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Drepung",
+          "哲蚌",
+          "晒佛",
+          "雪顿节"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Drepung%20Monastery.png?width=1200",
+        "image_alt": "哲蚌寺",
+        "image_caption": "哲蚌寺经堂入口附近的僧人。",
+        "image_credit": "Mikael Häggström / Wikimedia Commons, Public domain",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Drepung_Monastery.png"
       }
     },
     {
@@ -232,9 +345,9 @@
           "religious_site"
         ],
         "tradition": [],
-        "era": null,
+        "era": "15世纪",
         "summary_short": "格鲁派重要寺院之一，常被用来讨论寺院教育、辩经实践与拉萨北郊宗教空间。",
-        "details": "页面可加入“寺院教育”标签，并和哲蚌、甘丹组成拉萨修学网络。",
+        "details": "色拉寺最适合呈现“辩经”这一可视化的寺院教育实践。它不是表演，而是通过问答、拍掌、姿态和逻辑推演训练佛学理解的学习制度。",
         "story_angle": "辩经、寺院教育、拉萨北郊",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -243,10 +356,37 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "highlights": [
+          "以辩经场景为公众熟知",
+          "拉萨北郊重要寺院",
+          "适合作为“寺院教育/辩经”专题点",
+          "辩经庭院",
+          "格鲁派寺院教育",
+          "拉萨三大寺网络"
+        ],
+        "body_sections": [
+          {
+            "title": "辩经不是表演",
+            "body": "正式内容应解释辩经作为学习、记忆、逻辑训练和师承关系的一部分，而不只是观光化场景。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Sera",
+          "拍掌",
+          "色拉",
+          "辩经"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monks%20Debating%20Practice%20At%20Sera%20Monastery.JPG?width=1200",
+        "image_alt": "色拉寺",
+        "image_caption": "色拉寺辩经场景。",
+        "image_credit": "Thomas.fanghaenel / Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Monks_Debating_Practice_At_Sera_Monastery.JPG"
       }
     },
     {
@@ -273,9 +413,9 @@
           "pilgrimage"
         ],
         "tradition": [],
-        "era": null,
+        "era": "15世纪",
         "summary_short": "格鲁派重要寺院与朝圣地点，可作为山地寺院、教派记忆与拉萨—墨竹工卡沿线的节点。",
-        "details": "建议后续加入环山转经路线和视域分析，而不是只做一个点。",
+        "details": "甘丹寺与宗喀巴、格鲁派制度化关系密切。它位于拉萨东部山地，适合在地图上呈现“山地寺院—教派祖庭—朝圣路线”的关系。",
         "story_angle": "山地寺院、格鲁派、转山",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -284,10 +424,28 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗喀巴与格鲁派祖庭",
+          "山地寺院景观",
+          "拉萨外围朝圣路线"
+        ],
+        "search_aliases": [
+          "Ganden",
+          "宗喀巴",
+          "格鲁派祖庭",
+          "甘丹"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganden%20monastery%2C%20Tibet%2C%202013.jpg?width=1200",
+        "image_alt": "甘丹寺",
+        "image_caption": "甘丹寺山地寺院景观。",
+        "image_credit": "Maris Burbergs / Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Ganden_monastery,_Tibet,_2013.jpg"
       }
     },
     {
@@ -313,9 +471,9 @@
           "pilgrimage"
         ],
         "tradition": [],
-        "era": null,
+        "era": "8世纪后期",
         "summary_short": "雅鲁藏布江沿线重要寺院之一，常被视为早期藏传佛教史的关键地点。",
-        "details": "适合作为“雅砻河谷—吐蕃记忆”故事线的一站。",
+        "details": "桑耶寺常被视为西藏第一座具备僧团制度的佛教寺院。它的建筑布局常被解释为坛城式宇宙模型，适合连接吐蕃王权、印度僧人、翻译活动与早期佛教制度化。",
         "story_angle": "吐蕃记忆、雅砻河谷、佛教传播",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -324,10 +482,38 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "highlights": [
+          "早期佛教制度化记忆",
+          "曼荼罗式空间想象",
+          "吐蕃王权与佛教传播节点",
+          "吐蕃时期佛教制度化",
+          "坛城式建筑布局",
+          "莲花生、寂护与早期译经传统"
+        ],
+        "body_sections": [
+          {
+            "title": "建筑与宇宙观",
+            "body": "桑耶寺适合用作“建筑如何模拟宇宙秩序”的案例，并连接吐蕃、译经和僧团制度。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Samye",
+          "坛城",
+          "寂护",
+          "桑耶",
+          "莲花生"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samye%20Monastery%2C%20Tibet.jpg?width=1200",
+        "image_alt": "桑耶寺",
+        "image_caption": "桑耶寺建筑群。",
+        "image_credit": "Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Samye_Monastery,_Tibet.jpg"
       }
     },
     {
@@ -368,7 +554,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -408,7 +606,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -447,7 +657,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -487,7 +709,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -527,7 +761,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -567,7 +813,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -593,9 +851,9 @@
           "settlement"
         ],
         "tradition": [],
-        "era": null,
+        "era": "1447年创建",
         "summary_short": "日喀则的重要寺院与城市地标，可作为后藏宗教政治与区域中心的入口。",
-        "details": "可扩展主题：后藏城市、寺院经济、人物谱系、节庆与朝圣。",
+        "details": "扎什伦布寺是后藏日喀则最重要的寺院之一，与班禅喇嘛制度、格鲁派高僧谱系和日喀则城市空间密切相关。",
         "story_angle": "后藏、城市寺院、区域中心",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -604,10 +862,28 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "班禅喇嘛驻锡地",
+          "后藏宗教中心",
+          "大型殿堂、佛塔与寺院节庆"
+        ],
+        "search_aliases": [
+          "Tashilhunpo",
+          "扎什伦布",
+          "日喀则",
+          "班禅"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tashilhunpo%20Monastery%20%2823753197711%29.jpg?width=1200",
+        "image_alt": "扎什伦布寺",
+        "image_caption": "扎什伦布寺建筑群。",
+        "image_credit": "Laika ac / Wikimedia Commons, CC BY-SA 2.0",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Tashilhunpo_Monastery_(23753197711).jpg"
       }
     },
     {
@@ -633,9 +909,9 @@
           "craft_practice"
         ],
         "tradition": [],
-        "era": null,
+        "era": "15世纪",
         "summary_short": "江孜的寺院与佛塔艺术节点，适合展示壁画、建筑与后藏交通线的关系。",
-        "details": "图片和壁画内容必须处理授权；正式版可做成图像志专题。",
+        "details": "江孜白居寺和十万佛塔能很好地呈现后藏艺术与建筑的层叠结构。十万佛塔由多层佛殿和壁画空间构成，是把建筑、图像、朝拜路径结合起来的典型案例。",
         "story_angle": "壁画、佛塔、后藏路线",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -644,10 +920,37 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kumbum%20Gyantse.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Kumbum_Gyantse.jpg",
+        "image_caption": "江孜白居寺十万佛塔。",
+        "image_alt": "江孜白居寺与十万佛塔",
+        "image_credit": "Antoine Taveneaux / Wikimedia Commons",
+        "highlights": [
+          "十万佛塔 / Kumbum",
+          "多层佛塔与壁画空间",
+          "江孜历史城镇的重要宗教艺术节点",
+          "多层佛殿与壁画",
+          "江孜历史城市与商路记忆"
+        ],
+        "body_sections": [
+          {
+            "title": "观看方式",
+            "body": "建议未来在卡片中用分层结构呈现佛塔楼层、殿堂、壁画与绕行路线。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Gyantse",
+          "Kumbum",
+          "十万佛塔",
+          "江孜",
+          "白居寺"
+        ]
       }
     },
     {
@@ -673,9 +976,9 @@
           "archive_print"
         ],
         "tradition": [],
-        "era": null,
+        "era": "11世纪创建，南寺约13世纪",
         "summary_short": "萨迦派重要寺院与文献传统节点。",
-        "details": "建议后续接入 BDRC / BUDA 的文本与人物资料，做成宗派与文献网络视图。",
+        "details": "萨迦寺是萨迦派核心寺院，灰白红三色墙体、堡寨式外观和文献收藏让它非常适合做“寺院—政权—档案”的专题。",
         "story_angle": "萨迦派、文献、后藏",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -684,10 +987,36 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sakya%20monastery.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Sakya_monastery.jpg",
+        "image_caption": "萨迦寺外观。",
+        "image_alt": "萨迦寺",
+        "image_credit": "Antoine Taveneaux / Wikimedia Commons",
+        "highlights": [
+          "萨迦派主寺与文献传统",
+          "堡寨式建筑视觉强烈",
+          "后藏宗教与政治史节点",
+          "萨迦派主寺",
+          "灰白红三色墙与堡寨式建筑",
+          "文献、经书与教派政治史"
+        ],
+        "body_sections": [
+          {
+            "title": "资料加厚方向",
+            "body": "可补萨迦文献库、壁画、护法殿、建筑色彩和萨迦派政教史。"
+          }
+        ],
+        "region_theme": "Ü-Tsang / 卫藏",
+        "search_aliases": [
+          "Sakya",
+          "八思巴",
+          "萨迦派"
+        ]
       }
     },
     {
@@ -727,7 +1056,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -768,7 +1109,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "神山圣湖 / 地景",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -808,7 +1161,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "神山圣湖 / 地景",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -845,10 +1210,28 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "神山圣湖 / 地景",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamdrok%20Lake%2C%20Tibet.jpg?width=1200",
+        "image_alt": "羊卓雍错",
+        "image_caption": "羊卓雍错湖面与山地景观。",
+        "image_credit": "钉钉 / Wikimedia Commons, CC BY-SA 4.0",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Yamdrok_Lake,_Tibet.jpg"
       }
     },
     {
@@ -877,7 +1260,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "尼木吞巴常被介绍为藏香制作的重要村镇节点，可用来展示香料、药材、水磨与手工艺传承。",
-        "details": "正式版建议补地方非遗名录、工艺流程访谈与原料来源，不要只写旅游宣传文案。",
+        "details": "尼木吞巴藏香适合呈现物质文化：水磨、草药、柏木、香料配方、家族/村落传承和市场流通共同构成一个小型产业链。",
         "story_angle": "藏香、药材、手工艺、村镇经济",
         "craft_or_practice": "藏香 / 水磨制香",
         "coordinate_confidence": "approximate",
@@ -889,7 +1272,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "水磨制香",
+          "草药与柏木等原料",
+          "地方工坊与传承人"
+        ],
+        "search_aliases": [
+          "制香",
+          "吞巴",
+          "尼木藏香",
+          "藏香"
+        ]
       }
     },
     {
@@ -917,7 +1312,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "用于展示藏医药浴与 Sowa Rigpa 知识体系的代表性节点；这里不公开具体配方和可操作疗法。",
-        "details": "将健康知识做成文化介绍，而不是医疗建议；药材、配方、治疗声称需专业审校。",
+        "details": "Sowa Rigpa 药浴把温泉、草药水、蒸汽、身体调养和五元素观念连接起来。UNESCO 资料将其描述为调节身心、预防与治疗疾病的传统知识体系。",
         "story_angle": "藏医药、药浴、身体观",
         "craft_or_practice": "药浴、草药知识、身心疗愈",
         "coordinate_confidence": "approximate",
@@ -928,7 +1323,20 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "温泉、草药水与蒸汽",
+          "五元素与身心平衡",
+          "藏医四部医典相关知识"
+        ],
+        "search_aliases": [
+          "Lum",
+          "Sowa Rigpa",
+          "温泉",
+          "药浴",
+          "藏医"
+        ]
       }
     },
     {
@@ -955,9 +1363,9 @@
           "sacred_landscape"
         ],
         "tradition": [],
-        "era": "10th–17th century / 古格王朝时期；1961年列入全国重点文物保护单位",
+        "era": "9/10世纪—17世纪",
         "summary_short": "古格王国遗址 / 札布让是西藏西部最重要的王国遗址之一。它不是单一废墟，而是王宫、寺庙、民居、洞窟、防御结构、壁画和土林地貌叠合成的山体城市。",
-        "details": "古格遗址常被包装成“消失王国”，但更有价值的读法是：它如何把政治权力、佛教艺术、贸易通道、防御需求和干旱地貌组织到同一座山体空间中。官方资料称古格王朝存在于公元9世纪到17世纪，遗址被认为是古格都城所在；遗存佛殿壁画受多种文化影响，能说明古格与周边区域之间的交流。CCTV资料还提到红庙、白庙、轮回庙等殿堂壁画以及被称为“古格银眼”的雕塑传统。",
+        "details": "古格王国遗址不是单一废墟，而是山体城市：王宫、寺庙、民居、洞窟、防御结构和壁画空间层层叠加。重点可讲红殿、白殿、轮回庙、坛城殿、古格银眼、克什米尔/犍陀罗风格影响，以及它如何嵌入札达土林。",
         "story_angle": "王朝遗址、城堡聚落、消失王国叙事",
         "craft_or_practice": "红庙、白庙、轮回庙壁画；山体城堡；洞窟；佛塔；古格雕塑与“古格银眼”线索",
         "coordinate_confidence": "approximate",
@@ -971,7 +1379,8 @@
           "ali_thousand_heartbeat",
           "cctv_guge_murals",
           "npc_guge_ruins",
-          "commons_tsaparang"
+          "commons_tsaparang",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -992,16 +1401,39 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tsaparang%20citadel.jpg?width=1200",
-        "image_alt": "古格王国遗址 / 札布让山体遗址",
-        "image_caption": "古格王国遗址 / 札布让：山体城市、佛殿与居住遗迹叠合在土林地貌中。",
-        "image_credit": "Wikimedia Commons, Tsaparang category; check file page for author/license before publication.",
-        "image_source_url": "https://commons.wikimedia.org/wiki/Category:Tsaparang",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsaparang%20citadel.jpg?width=1200",
+        "image_alt": "古格王国遗址 / 扎布让",
+        "image_caption": "古格王国遗址 / 札布让山体遗址。",
+        "image_credit": "Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Tsaparang_citadel.jpg",
         "highlights": [
           "山体分层：上部王宫、中部寺庙、下部民居与洞窟",
           "壁画题材涉及佛教图像、王室礼佛、供养人和社会生活场景",
           "艺术风格被认为带有克什米尔、犍陀罗及跨喜马拉雅影响",
-          "与托林寺、皮央东嘎石窟、札达土林共同构成“古格—石窟—土林”专题"
+          "与托林寺、皮央东嘎石窟、札达土林共同构成“古格—石窟—土林”专题",
+          "山体城市：王宫、寺庙、民居与洞窟分层",
+          "红殿、白殿、轮回庙与壁画遗存",
+          "古格银眼、跨区域艺术影响与土林地貌"
+        ],
+        "aliases": [
+          "古格王朝",
+          "古格王国",
+          "札布让",
+          "扎布让",
+          "Tsaparang",
+          "Guge kingdom"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Tsaparang",
+          "古格王朝",
+          "古格遗址",
+          "古格银眼",
+          "扎布让",
+          "札布让",
+          "白殿",
+          "红殿",
+          "轮回庙"
         ]
       }
     },
@@ -1028,9 +1460,9 @@
           "archive_print"
         ],
         "tradition": [],
-        "era": "996 CE / 古格王国早期；白殿壁画主要保存15–16世纪图像层；1996年全国重点文物保护单位",
+        "era": "996年创建",
         "summary_short": "托林寺始建于公元996年，位于札达县象泉河畔，是古格王国在阿里建立的重要佛寺，被称为阿里“第一寺”，也是后弘期佛教与古格艺术的核心现场。",
-        "details": "托林寺的价值在于它把王权、译经、寺院制度和艺术复兴连接起来。官方资料称其由益西沃创建，建筑融合印度、尼泊尔和西藏本地风格；白殿保存的古格艺术壁画色彩鲜艳、线条流畅。央广网关于托林寺白殿壁画数字化的报道还提到，白殿壁画面积约320平方米，反映藏传佛教艺术与多民族、跨地域艺术风格的交融，并通过高精度影像发现重要题记。",
+        "details": "托林寺由古格王益西沃创建，是西藏佛教后弘期的重要寺院。它适合讲“阿里第一寺”、白殿壁画、红殿坛城/造像、译经与古格艺术。已有资料提到白殿壁画保存面积可观，并被用于数字档案保护。",
         "story_angle": "后弘期寺院、古格艺术、制度与壁画",
         "craft_or_practice": "白殿壁画、红殿壁画、佛塔、经堂、译经与后弘期佛教记忆",
         "coordinate_confidence": "approximate",
@@ -1045,7 +1477,8 @@
           "ali_region_ethnic_religion",
           "cnr_tholing_white_temple_archive",
           "tibetology_tholing_red_hall",
-          "commons_tholing"
+          "commons_tholing",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -1066,16 +1499,36 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tholing%20monastery%20%28Tibet%29%20Dieter%20Schuh.JPG?width=1200",
-        "image_alt": "托林寺外观",
-        "image_caption": "托林寺位于札达托林镇，是古格王朝与后弘期佛教史的重要寺院。",
-        "image_credit": "Photo by Dieter Schuh, Wikimedia Commons; check file page for license before publication.",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tholing%20monastery%20%28Tibet%29%20Dieter%20Schuh.JPG?width=1200",
+        "image_alt": "托林寺",
+        "image_caption": "托林寺遗址与寺院建筑。",
+        "image_credit": "Dieter Schuh / Wikimedia Commons",
         "image_source_url": "https://commons.wikimedia.org/wiki/File:Tholing_monastery_(Tibet)_Dieter_Schuh.JPG",
         "highlights": [
           "996年创建，是阿里最早和最重要的寺院之一",
           "与益西沃、仁钦桑布、阿底峡入藏传法等后弘期叙事有关",
           "白殿壁画约320平方米，已建立高精度数字档案",
-          "红殿壁画研究可作为理解古格王室礼仪空间和政教结构的入口"
+          "红殿壁画研究可作为理解古格王室礼仪空间和政教结构的入口",
+          "益西沃与后弘期佛教",
+          "白殿壁画、红殿与古格艺术",
+          "译经网络、阿底峡传法与札达宗教中心"
+        ],
+        "aliases": [
+          "托林寺",
+          "Tholing",
+          "Toling",
+          "白殿",
+          "红殿"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Tholing",
+          "后弘期",
+          "托林寺",
+          "白殿",
+          "益西沃",
+          "红殿",
+          "阿底峡"
         ]
       }
     },
@@ -1117,7 +1570,8 @@
           "ali_a_level_scenic",
           "purang_profile",
           "britannica_kailash",
-          "commons_kailash_manasarovar"
+          "commons_kailash_manasarovar",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -1134,15 +1588,22 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yaks-Kailash-Manasarovar.jpg?width=1200",
-        "image_alt": "玛旁雍错与远处冈仁波齐",
-        "image_caption": "冈仁波齐与玛旁雍错构成阿里最具跨地域意义的神山圣湖地景。",
-        "image_credit": "Jean-Marie Hullot, CC BY-SA 4.0, Wikimedia Commons.",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaks-Kailash-Manasarovar.jpg?width=1200",
+        "image_alt": "冈仁波齐",
+        "image_caption": "冈仁波齐与玛旁雍错一带的高原地景。",
+        "image_credit": "Wikimedia Commons",
         "image_source_url": "https://commons.wikimedia.org/wiki/File:Yaks-Kailash-Manasarovar.jpg",
         "highlights": [
           "被佛教、苯教、印度教、耆那教等多重传统赋予神圣意义",
           "与玛旁雍错、拉昂错、曲普温泉、塔钦共同构成朝圣地景网络",
           "地图中应避免提供过度导航化的敏感路线，而以文化地景解释为主"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Gang Rinpoche",
+          "Kailash",
+          "冈仁波切",
+          "冈仁波钦"
         ]
       }
     },
@@ -1185,7 +1646,8 @@
           "ali_a_level_scenic",
           "purang_profile",
           "britannica_kailash",
-          "commons_kailash_manasarovar"
+          "commons_kailash_manasarovar",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
@@ -1202,15 +1664,20 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mount%20Kailash%20sunset%20from%20Manasarovar%20lake.jpg?width=1200",
-        "image_alt": "玛旁雍错湖畔远望冈仁波齐",
-        "image_caption": "玛旁雍错：高海拔湖盆、圣湖叙事与朝圣身体经验相交汇。",
-        "image_credit": "Wikimedia Commons; check file page for author/license before publication.",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Kailash%20sunset%20from%20Manasarovar%20lake.jpg?width=1200",
+        "image_alt": "玛旁雍错",
+        "image_caption": "玛旁雍错湖畔远望冈仁波齐。",
+        "image_credit": "Wikimedia Commons",
         "image_source_url": "https://commons.wikimedia.org/wiki/File:Mount_Kailash_sunset_from_Manasarovar_lake.jpg",
         "highlights": [
           "高海拔淡水湖；与冈仁波齐、纳木那尼峰共同构成山湖地景",
           "水利资料提到湖泊位于冈底斯山与喜马拉雅山之间的湖盆环境",
           "适合展示环湖朝圣、湖岸供奉与自然地理之间的关系"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Manasarovar",
+          "玛旁雍措"
         ]
       }
     },
@@ -1238,9 +1705,9 @@
           "religious_site"
         ],
         "tradition": [],
-        "era": null,
+        "era": "1729年创建",
         "summary_short": "康区德格的重要文献与木刻印刷节点，适合展示经版、纸张、雕版、印刷与文本流通。",
-        "details": "这是原型中最适合做“物质文化 + 文献流通”的深挖专题之一。",
+        "details": "德格印经院是康区最重要的文献与木刻印经中心之一。Rubin Museum 资料称其由德格土司登巴泽仁创建，保存约三十万块木版，至今仍以传统木刻方式印制佛经与图像。",
         "story_angle": "木刻印经、文献、康区",
         "craft_or_practice": "木刻印经、经版、手工纸",
         "coordinate_confidence": "approximate",
@@ -1250,10 +1717,46 @@
           "derge_rubin",
           "derge_official",
           "bdrc",
-          "wikidata_osm_seed"
+          "wikidata_osm_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "德格印经院",
+          "德格",
+          "Derge Parkhang",
+          "Dege Parkhang",
+          "木刻印经"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Parkhang%2C%20Deg%C3%A9%2C%20Kham.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Parkhang,_Deg%C3%A9,_Kham.jpg",
+        "image_caption": "德格印经院外观。",
+        "image_alt": "德格印经院",
+        "image_credit": "Ljbonner / Wikimedia Commons, CC BY-SA 4.0",
+        "highlights": [
+          "1729年前后兴建的木刻印经传统节点",
+          "经版、雕版、纸张与印刷劳动",
+          "连接康区市镇、寺院与文献流通",
+          "康区木刻印经中心",
+          "三十万块木版与《甘珠尔》《丹珠尔》传统",
+          "纸张、雕版、校勘、刷印与装帧流程"
+        ],
+        "body_sections": [
+          {
+            "title": "适合做交互",
+            "body": "可把印经流程拆成“书写—雕版—校勘—刷印—晾干—装帧—流通”，让用户理解经书不是抽象文本，而是一套劳动与信仰技术。"
+          }
+        ],
+        "region_theme": "Kham / 康区",
+        "search_aliases": [
+          "Derge Parkhang",
+          "丹珠尔",
+          "印经",
+          "德格印经院",
+          "木刻",
+          "甘珠尔"
+        ]
       }
     },
     {
@@ -1293,7 +1796,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1333,7 +1848,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1373,7 +1900,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1413,7 +1952,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1453,7 +2004,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1492,7 +2055,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1532,7 +2107,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1573,7 +2160,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "朝圣 / 转经",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1613,7 +2212,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "寺院教育 / 修学中心",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1653,7 +2264,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "寺院教育 / 修学中心",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1693,7 +2316,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1733,7 +2368,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1773,7 +2420,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1812,7 +2471,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Kham / 康区",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Kham / 康区",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1839,9 +2510,9 @@
           "pilgrimage"
         ],
         "tradition": [],
-        "era": null,
+        "era": "1709年创建",
         "summary_short": "安多地区重要寺院与修学中心，也是甘南藏区的关键文化节点。",
-        "details": "后续可做学院体系、转经廊、甘南草原与市场街区专题。",
+        "details": "拉卜楞寺是安多最重要的格鲁派寺院之一，也是学经、辩经、转经和区域贸易网络汇合的中心。它适合连接安多草原、寺院教育、藏医、艺术和市镇生活。",
         "story_angle": "安多、寺院教育、转经",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -1850,10 +2521,43 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "拉卜楞寺",
+          "Labrang",
+          "夏河",
+          "辩经"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Labrang%20Monastery%2C%20Xiahe%2C%20Gansu%2C%20China.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Labrang_Monastery,_Xiahe,_Gansu,_China.jpg",
+        "image_caption": "夏河拉卜楞寺局部。",
+        "image_alt": "拉卜楞寺",
+        "image_credit": "Ariel Steiner / Wikimedia Commons",
+        "highlights": [
+          "安多格鲁派重要寺院",
+          "学经、辩经与区域商业网络",
+          "连接甘南藏区与草原社会",
+          "安多格鲁派学经中心",
+          "大规模转经廊与辩经传统",
+          "甘南市镇、草原与寺院经济"
+        ],
+        "body_sections": [
+          {
+            "title": "安多文化中心",
+            "body": "拉卜楞不只是寺院，也是市镇、学院、转经道、商业和草原朝圣网络交汇的文化中心。"
+          }
+        ],
+        "region_theme": "Amdo / 安多",
+        "search_aliases": [
+          "Labrang",
+          "夏河",
+          "拉卜楞",
+          "辩经"
+        ]
       }
     },
     {
@@ -1881,7 +2585,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "青海西宁附近的重要寺院节点，可连接宗教艺术、酥油花、安多与汉藏边缘互动。",
-        "details": "正式版可将“酥油花/艺术”做成独立手工艺条目。",
+        "details": "塔尔寺 / 贡本寺与宗喀巴出生地记忆、酥油花、壁画和堆绣等艺术传统密切相关。它是安多宗教与工艺文化的重要入口。",
         "story_angle": "安多寺院、艺术、边缘互动",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -1890,10 +2594,45 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "塔尔寺",
+          "贡本",
+          "Kumbum",
+          "Taer",
+          "酥油花"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kumbum%20Monastery%20%2853726823486%29.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Kumbum_Monastery_(53726823486).jpg",
+        "image_caption": "塔尔寺 / 贡本寺建筑景观。",
+        "image_alt": "塔尔寺 / 贡本",
+        "image_credit": "Wikimedia Commons",
+        "highlights": [
+          "塔尔寺 / 贡本寺",
+          "格鲁派重要寺院",
+          "酥油花、堆绣、壁画等艺术传统可扩写",
+          "宗喀巴出生地记忆",
+          "酥油花、壁画、堆绣",
+          "安多宗教艺术与朝圣"
+        ],
+        "body_sections": [
+          {
+            "title": "工艺线索",
+            "body": "可补酥油花、壁画、堆绣和寺院节庆如何把宗教图像转化为年度工艺实践。"
+          }
+        ],
+        "region_theme": "Amdo / 安多",
+        "search_aliases": [
+          "Kumbum",
+          "塔尔寺",
+          "宗喀巴",
+          "贡本",
+          "酥油花"
+        ]
       }
     },
     {
@@ -1933,7 +2672,19 @@
           "wikidata_osm_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -1962,7 +2713,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "热贡艺术涵盖唐卡、壁画、堆绣、雕塑等藏传佛教艺术实践，集中于青海同仁一带的河谷与村镇。",
-        "details": "正式版可做工艺流程、师徒传承、颜料、寺院订单与市场化的民族志专题。",
+        "details": "热贡艺术包括唐卡、壁画、堆绣和雕塑等。UNESCO 描述其在隆务河流域的寺院和村庄中传承，技法通常由师徒或家庭传授，并遵循佛教绘画规范。",
         "story_angle": "唐卡、壁画、堆绣、泥塑、师徒传承",
         "craft_or_practice": "唐卡、壁画、堆绣、雕塑",
         "coordinate_confidence": "approximate",
@@ -1973,7 +2724,36 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "热贡艺术",
+          "唐卡",
+          "吾屯",
+          "Regong"
+        ],
+        "highlights": [
+          "热贡艺术 / 唐卡、壁画、堆绣、雕塑",
+          "UNESCO 非遗线索",
+          "艺术村落、寺院和市场共同构成传承网络",
+          "唐卡与壁画",
+          "堆绣 / barbola",
+          "寺院与村庄之间的师徒传承"
+        ],
+        "body_sections": [
+          {
+            "title": "避免只写“唐卡产地”",
+            "body": "应记录师徒制、矿物颜料、图像规范、订单市场、寺院需求与家庭作坊之间的关系。"
+          }
+        ],
+        "region_theme": "Amdo / 安多",
+        "search_aliases": [
+          "Regong",
+          "吾屯",
+          "唐卡",
+          "堆绣",
+          "壁画",
+          "热贡"
+        ]
       }
     },
     {
@@ -2012,7 +2792,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "手工艺 / 物质文化",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2052,7 +2844,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2092,7 +2896,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2133,7 +2949,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2174,7 +3002,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "神山圣湖 / 地景",
+          "Amdo / 安多",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2202,7 +3042,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "用于标示格萨尔史诗在藏、蒙古、土等群体中的口传叙事传统；此点为区域化入口，不代表单一地点。",
-        "details": "正式版可改为多个口传人、节庆、文本、绘画与地景节点，但需避免把活态传统一点化。",
+        "details": "格萨尔史诗是藏族、蒙古族、土族等社群共享的口传传统。UNESCO 资料强调艺人以散文和韵文交替演述，并在地方仪式与日常生活中延续。",
         "story_angle": "口传史诗、游牧、英雄叙事",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -2213,7 +3053,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Amdo / 安多",
+        "highlights": [
+          "口传史诗演述",
+          "说唱、手势、仪式与地方版本",
+          "玉树、果洛等区域记忆"
+        ],
+        "search_aliases": [
+          "Gesar",
+          "史诗",
+          "格萨尔",
+          "说唱"
+        ]
       }
     },
     {
@@ -2252,7 +3104,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Ü-Tsang / 卫藏",
+        "highlights": [
+          "非遗 / 口传表演",
+          "Ü-Tsang / 卫藏",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2292,7 +3156,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2320,7 +3196,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "拉达克重要寺院节点，适合展示节庆、面具舞与西喜马拉雅寺院网络。",
-        "details": "后续可加入节庆时间、面具舞与旅游化的观察维度。",
+        "details": "赫米斯寺是拉达克重要寺院之一，与竹巴噶举传统和面具舞节庆联系密切。它适合呈现喜马拉雅寺院如何通过节庆、庭院、面具和观众组织公共宗教生活。",
         "story_angle": "拉达克寺院、面具舞、节庆",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -2329,10 +3205,28 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "竹巴噶举传统",
+          "Hemis 节与面具舞",
+          "拉达克山地寺院网络"
+        ],
+        "search_aliases": [
+          "Hemis",
+          "Ladakh",
+          "赫米斯",
+          "面具舞"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colouful%20Hemis%20Monastery.jpg?width=1200",
+        "image_alt": "赫米斯寺",
+        "image_caption": "赫米斯寺庭院与建筑。",
+        "image_credit": "Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Colouful_Hemis_Monastery.jpg"
       }
     },
     {
@@ -2360,7 +3254,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "拉达克重要艺术史节点，壁画和建筑适合做图像志专题。",
-        "details": "壁画图片与内部空间需严格处理授权与开放规则。",
+        "details": "阿尔奇寺以克什米尔—拉达克艺术风格、早期壁画和木构细节闻名，是跨喜马拉雅艺术史非常重要的节点。",
         "story_angle": "西喜马拉雅艺术、壁画、寺院",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -2369,10 +3263,41 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "阿尔奇寺",
+          "Alchi"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alchi%20Monastery%2020180216%20151639%2008.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Alchi_Monastery_20180216_151639_08.jpg",
+        "image_caption": "阿尔奇寺院建筑。",
+        "image_alt": "阿尔奇寺",
+        "image_credit": "Sumana roy / Wikimedia Commons",
+        "highlights": [
+          "拉达克早期佛教艺术节点",
+          "以壁画与木雕艺术知名",
+          "适合连接克什米尔、拉达克和西藏西部艺术流动",
+          "早期壁画与木构",
+          "克什米尔—拉达克艺术影响",
+          "河谷贸易与佛教传播"
+        ],
+        "body_sections": [
+          {
+            "title": "艺术史线索",
+            "body": "阿尔奇可与古格、托林、札布让并读，形成西喜马拉雅佛教美术专题。"
+          }
+        ],
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "search_aliases": [
+          "Alchi",
+          "Ladakh",
+          "拉达克",
+          "阿尔奇"
+        ]
       }
     },
     {
@@ -2412,7 +3337,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2452,7 +3389,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2492,7 +3441,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2532,7 +3493,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2560,7 +3533,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "东喜马拉雅重要藏传佛教寺院节点，连接门隅、阿鲁纳恰尔与喜马拉雅文化通道。",
-        "details": "该区域有复杂边界与地方身份，应使用谨慎、非单一化表述。",
+        "details": "达旺寺是喜马拉雅南缘藏传佛教空间的重要节点。它能帮助用户理解藏文化并非只在高原腹地，而是在山口、边境和跨区域朝圣网络中延伸。",
         "story_angle": "东喜马拉雅、门隅、边界地景",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -2569,10 +3542,40 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "达旺寺",
+          "Tawang"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tawang%20Monastery%20view.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Tawang_Monastery_view.jpg",
+        "image_caption": "达旺寺远景。",
+        "image_alt": "达旺寺",
+        "image_credit": "Kingshuk Mondal / Wikimedia Commons, CC BY 2.0",
+        "highlights": [
+          "跨喜马拉雅藏传佛教大寺",
+          "连接门隅、东北印度与藏传佛教网络",
+          "适合呈现边地寺院与政治地理",
+          "南缘藏传佛教中心",
+          "大型寺院建筑群",
+          "山地边境与跨文化流动"
+        ],
+        "body_sections": [
+          {
+            "title": "跨域视角",
+            "body": "达旺寺可以帮助用户理解藏文化世界并不止于现代行政边界，而包含边地与跨喜马拉雅交流。"
+          }
+        ],
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "search_aliases": [
+          "Arunachal",
+          "Tawang",
+          "达旺寺"
+        ]
       }
     },
     {
@@ -2613,7 +3616,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2654,7 +3669,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "神山圣湖 / 地景",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2694,7 +3721,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Trans-Himalaya / 喜马拉雅藏传文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2723,7 +3762,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "加德满都重要佛教朝圣与藏人流动社区节点，是喜马拉雅佛教、移民、商业和修行网络的交汇点。",
-        "details": "作为流动节点而非传统藏区核心来呈现，可展示迁徙、社区、寺院和商业街区。",
+        "details": "博达哈大佛塔是加德满都谷地的重要藏传佛教聚集点，也是流动、商贸、移民社群、寺院和旅游共同作用的城市节点。",
         "story_angle": "流动社区、佛塔、加德满都",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -2732,10 +3771,28 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Diaspora & Crossroads / 流动与交汇节点",
+        "highlights": [
+          "加德满都藏传佛教社群",
+          "佛塔转经空间",
+          "跨喜马拉雅商贸与流动"
+        ],
+        "search_aliases": [
+          "Boudhanath",
+          "Kathmandu",
+          "加德满都",
+          "博达哈"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boudhanath%20stupa%20.jpg?width=1200",
+        "image_alt": "博达哈大佛塔",
+        "image_caption": "博达哈大佛塔。",
+        "image_credit": "Tse Choe / Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Boudhanath_stupa_.jpg"
       }
     },
     {
@@ -2763,7 +3820,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "锡金的重要藏传佛教寺院节点，适合连接喜马拉雅南坡、迁徙与宗派网络。",
-        "details": "应标注其锡金本地历史和南亚政治文化语境。",
+        "details": "隆德寺是锡金重要的噶玛噶举节点，可作为不丹—锡金文化圈中“寺院、流亡、传承与现代国家边界”的交汇点。",
         "story_angle": "锡金、迁徙、噶举网络",
         "craft_or_practice": null,
         "coordinate_confidence": "approximate",
@@ -2772,10 +3829,42 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "隆德寺",
+          "Rumtek"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rumtek%20Monastery%2002.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Rumtek_Monastery_02.jpg",
+        "image_caption": "隆德寺 / Rumtek Monastery。",
+        "image_alt": "隆德寺 / 锡金 Rumtek",
+        "image_credit": "Bernard Gagnon / Wikimedia Commons",
+        "highlights": [
+          "锡金噶举派重要寺院",
+          "与近现代跨喜马拉雅流动相关",
+          "适合呈现离散、传承与重建",
+          "噶玛噶举传承",
+          "锡金藏传佛教网络",
+          "跨喜马拉雅迁徙与制度重建"
+        ],
+        "body_sections": [
+          {
+            "title": "近现代网络",
+            "body": "隆德寺可作为噶举派传承、锡金政治地理与20世纪以后藏传佛教流动的切入点。"
+          }
+        ],
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "search_aliases": [
+          "Karmapa",
+          "Rumtek",
+          "噶玛噶举",
+          "锡金",
+          "隆德寺"
+        ]
       }
     },
     {
@@ -2815,7 +3904,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Bhutan–Sikkim / 不丹—锡金文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2844,7 +3945,7 @@
         "tradition": [],
         "era": null,
         "summary_short": "不丹最知名的悬崖寺院与朝圣地景之一，常与莲师传说相连。",
-        "details": "作为不丹节点时，应遵守本地文化表述和影像授权规则。",
+        "details": "帕罗虎穴寺建在悬崖之上，与莲花生传说、不丹山地朝圣和视觉化圣地叙事紧密相连。它是最适合做“悬崖圣地”视觉卡片的点位之一。",
         "story_angle": "不丹、悬崖寺院、莲师传说",
         "craft_or_practice": null,
         "coordinate_confidence": "verified",
@@ -2853,10 +3954,42 @@
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "aliases": [
+          "虎穴寺",
+          "帕罗虎穴",
+          "Paro Taktsang"
+        ],
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Tiger%27s%20Nest%20%28%20Paro%20Taktsang%20%29.jpg?width=1200",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Tiger%27s_Nest_(_Paro_Taktsang_).jpg",
+        "image_caption": "帕罗虎穴寺悬崖建筑。",
+        "image_alt": "帕罗虎穴寺",
+        "image_credit": "Wikimedia Commons",
+        "highlights": [
+          "不丹最具标志性的悬崖寺院之一",
+          "莲花生叙事与洞窟圣地相关",
+          "适合呈现不丹—锡金文化圈",
+          "悬崖寺院",
+          "莲花生传说",
+          "不丹朝圣与国家文化符号"
+        ],
+        "body_sections": [
+          {
+            "title": "地景与圣传",
+            "body": "帕罗虎穴寺把悬崖、洞穴、莲花生传说和不丹国家视觉文化联系起来。"
+          }
+        ],
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "search_aliases": [
+          "Paro Taktsang",
+          "不丹",
+          "莲花生",
+          "虎穴寺"
+        ]
       }
     },
     {
@@ -2896,7 +4029,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "highlights": [
+          "城镇 / 历史聚落",
+          "Bhutan–Sikkim / 不丹—锡金文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2936,7 +4081,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "highlights": [
+          "宗教建筑 / 寺院",
+          "Bhutan–Sikkim / 不丹—锡金文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -2977,7 +4134,19 @@
           "editorial_seed"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "region_theme": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "highlights": [
+          "朝圣 / 转经",
+          "Bhutan–Sikkim / 不丹—锡金文化圈",
+          "待补充田野备注与授权图片"
+        ],
+        "body_sections": [
+          {
+            "title": "下一步资料工作",
+            "body": "补充至少一条可靠来源摘录、公开图片授权、藏文名/转写、坐标可信度和可公开程度。"
+          }
+        ]
       }
     },
     {
@@ -3007,9 +4176,9 @@
           "Sakya / 萨迦派线索",
           "post-diffusion Buddhism / 后弘期佛教"
         ],
-        "era": "996 CE / 后弘期早期；后世多次维修",
+        "era": "996年前后",
         "summary_short": "科迦寺位于普兰县科迦村，距离普兰县城约13公里，是普兰边境文化、后弘期佛教、村落节庆与跨境朝拜共同交汇的千年寺院。",
-        "details": "科迦寺的重点不是“边境古寺”四个字，而是寺院如何塑造村落。阿里官方资料称科迦村“先有科迦寺后有科迦村”，寺院创建于公元996年前后，与大译师仁钦桑布相关；后续资料还提到，寺内以木雕、壁画和唐卡见长，建筑和壁画融合多种文化元素，反映普兰作为古代贸易和文化交流枢纽的位置。",
+        "details": "科迦寺位于普兰县科迦村，是边境村落、寺院和跨境朝拜共同构成的文化节点。阿里官方资料提到科迦寺以木雕、壁画和唐卡闻名，也反映了普兰作为古代贸易和文化交流枢纽的历史位置。",
         "story_angle": "边境寺院、后弘期佛教、村寺共生",
         "craft_or_practice": "木雕、壁画、唐卡、跨境朝拜、科迦藏戏与节庆活动",
         "body_sections": [
@@ -3043,9 +4212,30 @@
           "996年前后创建；与仁钦桑布及后弘期佛教传播有关",
           "村寺共生：科迦村围绕寺院形成，村名与寺名相互解释",
           "寺内看点包括木雕、壁画、唐卡与边境文化交流痕迹",
-          "周边可串联普兰口岸、唐嘎边贸市场、普兰服饰与宣舞"
+          "周边可串联普兰口岸、唐嘎边贸市场、普兰服饰与宣舞",
+          "仁钦桑布与后弘期佛教传统",
+          "木雕、壁画、唐卡与百柱殿线索",
+          "科迦村、边贸市场与跨境朝拜"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "aliases": [
+          "科加寺",
+          "科迦寺",
+          "科伽寺",
+          "Khorchak",
+          "Khojarnath",
+          "普兰科迦寺"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Khojarnath",
+          "Khorchak",
+          "仁钦桑布",
+          "科加",
+          "科加寺",
+          "科迦寺",
+          "科迦村"
+        ]
       }
     },
     {
@@ -3108,7 +4298,11 @@
           "宣舞以说、唱、跳结合，常在节庆和仪式中呈现",
           "科迦村展示场景可与科迦寺、边境文化和村落身份相连"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "科加"
+        ]
       }
     },
     {
@@ -3164,7 +4358,17 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "highlights": [
+          "自然地理 / 地貌",
+          "Ngari / 阿里与西部藏地",
+          "待补充田野备注与授权图片"
+        ],
+        "search_aliases": [
+          "Rakshastal",
+          "拉昂措"
+        ]
       }
     },
     {
@@ -3194,7 +4398,7 @@
         ],
         "era": "第三系地层风化地貌 / 国家地质公园",
         "summary_short": "札达土林是阿里最具辨识度的自然地理景观之一。沟壑、土柱、土塔与古堡般的地貌，使古格遗址和皮央东嘎石窟获得了独特的空间背景。",
-        "details": "札达土林不只是“壮观风景”。札达县政府资料提到，它位于札达县境内，沉积厚度达数千米，并被列为国家地质公园。对于民族志地图来说，土林解释了为什么遗址、洞窟、视线、防御和道路会以这种方式组织。它应作为自然地理图层的核心点。",
+        "details": "札达土林是自然地理与历史遗址共同成形的最好案例。沟壑、土柱、土塔和峡谷不仅提供视觉震撼，也影响古格都城、托林寺和石窟群的选址、视线与交通。",
         "story_angle": "土林地貌、地质公园、景观与历史共构",
         "craft_or_practice": "地景观察、摄影、地貌与遗址关联叙事",
         "body_sections": [
@@ -3212,22 +4416,42 @@
         "sensitivity": "public",
         "source_ids": [
           "zhada_earth_forest",
-          "moa_qingzang_route"
+          "moa_qingzang_route",
+          "commons_image_pool"
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11",
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tulin%20Landform%20in%20Guge%20ruins.jpg?width=1200",
-        "image_alt": "札达土林地貌",
-        "image_caption": "札达土林：地貌不是背景，而是古格遗址与石窟群的空间条件。",
-        "image_credit": "Wikimedia Commons; check file page for author/license before publication.",
-        "image_source_url": "https://commons.wikimedia.org/wiki/Category:Tholing_Monastery",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tulin%20Landform%20in%20Guge%20ruins.jpg?width=1200",
+        "image_alt": "札达土林",
+        "image_caption": "札达土林与古格区域地貌。",
+        "image_credit": "Wikimedia Commons",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Tulin_Landform_in_Guge_ruins.jpg",
         "highlights": [
           "国家地质公园；土柱、土塔、沟壑组成古堡般景观",
           "与古格遗址、托林寺、皮央东嘎石窟一起构成札达地景系统",
-          "适合加入地貌剖面、形成机制和观景关系说明"
+          "适合加入地貌剖面、形成机制和观景关系说明",
+          "国家地质公园与土林地貌",
+          "古格遗址的地理背景",
+          "自然地理与历史聚落共同解释"
+        ],
+        "aliases": [
+          "札达土林",
+          "扎达土林",
+          "土林",
+          "Zhada Earth Forest"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Zanda",
+          "Zhada",
+          "土林",
+          "地质公园",
+          "扎达",
+          "扎达土林",
+          "札达土林"
         ]
       }
     },
@@ -3259,7 +4483,7 @@
         ],
         "era": "10世纪以后 / 1992年后进入公共视野",
         "summary_short": "皮央石窟是“皮央和东嘎遗址”的重要组成部分，位于札达土林地貌之中，由寺院、城堡、石窟和塔林等遗存构成，是阿里佛教石窟艺术的重要节点。",
-        "details": "官方报道将皮央石窟称为“藏在土林里的艺术宝藏”。遗址与东嘎相邻，1992年以后进入更广泛的文物保护视野，并在2013年成为全国重点文物保护单位的一部分。石窟内壁画题材可涉及佛、菩萨、飞天、供养人、动物、植物和装饰纹样等，正式公开时不建议发布未开放洞窟和脆弱壁画的精确进入方式。",
+        "details": "皮央石窟位于札达土林之中，由石窟、寺院、城堡和塔林等遗存构成。它适合把“艺术宝藏”与“保护伦理”一起呈现：哪些洞窟开放、哪些壁画不宜公开路线、谁在守护遗址。",
         "story_angle": "石窟群、古格时期艺术、土林中的宗教遗存",
         "craft_or_practice": "壁画、石窟开凿、佛教图像与保护修复",
         "body_sections": [
@@ -3286,9 +4510,26 @@
         "highlights": [
           "与东嘎共同构成阿里重要石窟壁画遗址群",
           "地貌上嵌入札达土林，适合做“土林中的艺术宝藏”专题",
-          "可从守窟人、文物普查、国家级保护和公众参观四条线讲述"
+          "可从守窟人、文物普查、国家级保护和公众参观四条线讲述",
+          "土林中的石窟壁画",
+          "1992年文物普查后进入公众视野",
+          "寺院、城堡、石窟、塔林复合遗址"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "aliases": [
+          "皮央石窟",
+          "皮央",
+          "Piyang",
+          "东嘎皮央"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Piyang",
+          "东嘎皮央",
+          "皮央",
+          "皮央石窟",
+          "石窟壁画"
+        ]
       }
     },
     {
@@ -3319,7 +4560,7 @@
         ],
         "era": "10世纪以后 / 1992年后进入公共视野",
         "summary_short": "东嘎石窟与皮央石窟共同构成阿里重要石窟壁画遗址群。它们让札达不只是古格遗址所在地，也是西藏西部艺术史与文物保护的重要场域。",
-        "details": "东嘎石窟尤其适合写“地方守护—考古发现—国家级保护—公众传播”的时间线。官方报道提到守窟人长期看护石窟，而这些遗址直到1992年才被文物普查队发现。与其罗列洞窟数量，不如写天气、钥匙、巡查、讲解与代际传递。",
+        "details": "东嘎石窟与皮央相邻，常合称“皮央和东嘎遗址”。它适合做“守窟人—考古发现—全国重点文保”的时间线专题。",
         "story_angle": "石窟保护、壁画遗存、阿里考古",
         "craft_or_practice": "守窟、壁画保护、遗址讲解",
         "body_sections": [
@@ -3346,9 +4587,26 @@
         "highlights": [
           "与皮央石窟共同构成遗址群",
           "1992年文物普查后进入更广泛视野",
-          "适合做“守窟人”与文物保护的人文叙事"
+          "适合做“守窟人”与文物保护的人文叙事",
+          "东嘎—皮央遗址群",
+          "壁画与洞窟保护",
+          "守窟人口述史与文物巡护"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "aliases": [
+          "东嘎石窟",
+          "东嘎",
+          "Donggar",
+          "东嘎皮央"
+        ],
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "search_aliases": [
+          "Donggar",
+          "东嘎",
+          "东嘎皮央",
+          "东嘎石窟",
+          "守窟人"
+        ]
       }
     },
     {
@@ -3404,7 +4662,70 @@
         "route_ids": [
           "ngari_plateau_arc"
         ],
-        "visual_theme": "ngari_placeholder"
+        "visual_theme": "ngari_placeholder",
+        "region_theme": "Ngari / 阿里与西部藏地",
+        "highlights": [
+          "藏医药 / 疗愈",
+          "Ngari / 阿里与西部藏地",
+          "待补充田野备注与授权图片"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5,
+          34.8
+        ]
+      },
+      "properties": {
+        "id": "ritoma_norlha_yak_khullu",
+        "name_zh": "日托玛牦牛绒织造 / Norlha Atelier",
+        "name_en": "Ritoma Yak Khullu Weaving / Norlha Atelier",
+        "name_bo": null,
+        "romanization": "Ritoma / Norlha",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "craft_practice",
+        "categories": [
+          "craft_practice",
+          "settlement",
+          "intangible_heritage"
+        ],
+        "era": "2007年至今 / 当代手工艺节点",
+        "summary_short": "位于甘南藏族自治州日托玛村的当代牦牛绒织造节点，可作为“传统牧业—当代设计—女性工匠—可持续手工艺”的案例。",
+        "details": "Norlha 官方资料称其 atelier 位于甘南藏族自治州日托玛村，围绕 yak khullu、纺纱、手织和毡化工艺发展，并强调在地工匠、女性就业与低影响生产。这个点位适合连接你网站的视觉参考与实际藏地手工艺经济。",
+        "highlights": [
+          "牦牛绒 / yak khullu",
+          "纺纱、手织、毡化",
+          "当代藏地手工艺与社区就业"
+        ],
+        "body_sections": [
+          {
+            "title": "为什么加入",
+            "body": "它不是传统寺院或遗址，而是当代藏文化物质实践：牧业知识、纤维、设计、品牌和地方就业如何共同形成新的文化经济。"
+          }
+        ],
+        "story_angle": "当代手工艺、牦牛绒、女性工匠、品牌视觉与在地社区",
+        "craft_or_practice": "牦牛绒纺纱、手织、毡化、天然色纤维与织物设计",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "norlha_atelier"
+        ],
+        "search_aliases": [
+          "Norlha",
+          "日托玛",
+          "Ritoma",
+          "牦牛绒",
+          "yak khullu",
+          "织造"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
       }
     }
   ]

@@ -471,7 +471,7 @@ button:hover, .button-link:hover {
   display: block;
   width: 100%;
   height: clamp(180px, 26vh, 260px);
-  object-fit: cover;
+  object-fit: cover; background:#e5d8c7;
 }
 
 .hero-image figcaption {
@@ -599,4 +599,50 @@ button:hover, .button-link:hover {
   .hero-placeholder span {
     background: rgba(214, 189, 139, 0.28);
   }
+}
+
+
+.region-mode-note {
+  margin: 12px 0 18px;
+  padding: 13px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(63, 50, 39, 0.1);
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.region-mode-note strong {
+  display: block;
+  color: var(--accent-dark);
+  margin-bottom: 4px;
+}
+
+.region-legend {
+  margin: 10px 0 18px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(63, 50, 39, 0.08);
+}
+
+.region-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 8px 4px 0;
+  font-size: 0.78rem;
+  color: #4d4034;
+}
+
+.region-legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.75);
+}
+
+.search-row input:not(:placeholder-shown) {
+  border-color: rgba(108,64,56,0.38);
+  box-shadow: 0 0 0 3px rgba(108,64,56,0.08);
 }

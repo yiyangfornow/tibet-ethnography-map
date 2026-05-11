@@ -208,5 +208,71 @@
     "url": "https://commons.wikimedia.org/wiki/File:Yaks-Kailash-Manasarovar.jpg",
     "type": "cc_image_repository",
     "note": "冈仁波齐与玛旁雍错 CC BY-SA 4.0 图像，作者 Jean-Marie Hullot。"
+  },
+  "commons_image_pool": {
+    "title": "Wikimedia Commons public media pool",
+    "url": "https://commons.wikimedia.org/",
+    "type": "open_media",
+    "note": "Open media source. Each image still needs license and attribution review before publication."
+  },
+  "unesco_potala_lhasa": {
+    "title": "UNESCO World Heritage Centre: Historic Ensemble of the Potala Palace, Lhasa",
+    "url": "https://whc.unesco.org/en/list/707/",
+    "type": "heritage_reference",
+    "note": "Reference for Potala, Jokhang and Norbulingka World Heritage ensemble."
+  },
+  "rubin_derge_parkhang": {
+    "title": "Rubin Museum: Derge Parkhang, The Auspicious Treasury of Tibetan Woodcut Printing",
+    "url": "https://rubinmuseum.org/derge-parkhang-the-auspicious-treasury-of-tibetan-woodcut-printing/",
+    "type": "museum_reference",
+    "note": "Detailed reference for Derge Parkhang, woodblocks, Kangyur and Tengyur printing."
+  },
+  "unesco_regong_arts": {
+    "title": "UNESCO ICH: Regong arts",
+    "url": "https://ich.unesco.org/en/RL/regong-arts-00207",
+    "type": "heritage_reference",
+    "note": "Reference for thangka, murals, barbola and sculpture in the Longwu River basin."
+  },
+  "unesco_gesar_silkroad": {
+    "title": "UNESCO Silk Roads: Gesar epic tradition",
+    "url": "https://en.unesco.org/silkroad/silk-road-themes/intangible-cultural-heritage/gesar-epic-tradition",
+    "type": "heritage_reference",
+    "note": "Reference for Gesar oral epic tradition and performance practices."
+  },
+  "unesco_lum_archive": {
+    "title": "UNESCO Multimedia Archives: Lum medicinal bathing of Sowa Rigpa",
+    "url": "https://www.unesco.org/archives/multimedia/document-4766",
+    "type": "heritage_reference",
+    "note": "Reference for Lum medicinal bathing, hot springs, herbal water and steam practices."
+  },
+  "norlha_atelier": {
+    "title": "Norlha: Our Atelier",
+    "url": "https://www.norlha.com/pages/our-atelier-luxury-handwoven-tibetan-slow-sustainable-fashion",
+    "type": "brand_craft_reference",
+    "note": "Reference for contemporary yak khullu weaving, Ritoma village and Tibetan plateau craft."
+  },
+  "commons_jokhang_file": {
+    "title": "Wikimedia Commons: Jokhang Temple, Lhasa image file",
+    "url": "https://commons.wikimedia.org/wiki/File:Jokhang_Temple,_also_known_as_Tsuglagkhang_Temple,_Lhasa.jpg",
+    "type": "open_media",
+    "note": "CC BY-SA image; attribution required."
+  },
+  "commons_potala_file": {
+    "title": "Wikimedia Commons: Potala Palace close up view image file",
+    "url": "https://commons.wikimedia.org/wiki/File:Potala_Palace_close_up_view.jpg",
+    "type": "open_media",
+    "note": "Open image file; attribution/license review required."
+  },
+  "commons_sera_debate_file": {
+    "title": "Wikimedia Commons: Monks debating at Sera Monastery image file",
+    "url": "https://commons.wikimedia.org/wiki/File:Monks_Debating_Practice_At_Sera_Monastery.JPG",
+    "type": "open_media",
+    "note": "Open image file; attribution/license review required."
+  },
+  "commons_derge_file": {
+    "title": "Wikimedia Commons: Parkhang, Degé, Kham image file",
+    "url": "https://commons.wikimedia.org/wiki/File:Parkhang,_Deg%C3%A9,_Kham.jpg",
+    "type": "open_media",
+    "note": "CC BY-SA 4.0 image; attribution required."
   }
 }

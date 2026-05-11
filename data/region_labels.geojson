@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "ngari",
+        "name_zh": "阿里 / Ngari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4,
+          32.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "u_tsang",
+        "name_zh": "卫藏 / Ü-Tsang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.4,
+          30.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "kham",
+        "name_zh": "康区 / Kham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.2,
+          30.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "amdo",
+        "name_zh": "安多 / Amdo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0,
+          35.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "himalayan",
+        "name_zh": "跨喜马拉雅 / Trans-Himalaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5,
+          27.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "bhutan_sikkim",
+        "name_zh": "不丹—锡金"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.6,
+          27.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region_key": "diaspora_crossroads",
+        "name_zh": "流动节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          27.5
+        ]
+      }
+    }
+  ]
+}

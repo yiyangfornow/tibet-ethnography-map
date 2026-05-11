@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tibet Ethnography Map｜藏文化区域民族志地图原型</title>
+  <title>Tibet Ethnography Map｜藏文化区域民族志地图 V3</title>
   <meta name="description" content="A static, interactive MapLibre prototype for exploring Tibetan cultural regions, Ngari ethnographic places, craft practices, sacred landscapes, natural geography and sources." />
   <link rel="preconnect" href="https://unpkg.com" />
   <link rel="preconnect" href="https://basemaps.cartocdn.com" />
@@ -23,7 +23,7 @@
     </div>
 
     <p class="scope-note">
-      原型范围按“藏文化区域”组织：卫藏、阿里、康区、安多、跨喜马拉雅、不丹—锡金与流动交汇节点。本版新增阿里宗教、历史、非遗与自然地理专题，并以羊毛、土色、绛棕和留白构建更克制的藏文化视觉。
+      原型范围按“藏文化区域”组织：卫藏、阿里、康区、安多、跨喜马拉雅、不丹—锡金与流动交汇节点。本版新增文化区域色块、默认区域标题、阿里专题加厚、V3–V6 重点点位资料与公开图片链接，并以羊毛、土色、绛棕和留白构建更克制的藏文化视觉。
     </p>
 
     <label class="field-label" for="search-input">搜索地点、工艺、叙事</label>
@@ -35,11 +35,10 @@
     <label class="field-label" for="region-select">区域</label>
     <select id="region-select"></select>
 
-    <label class="field-label" for="color-mode">地图颜色</label>
-    <select id="color-mode">
-      <option value="region" selected>按文化区域着色</option>
-      <option value="category">按内容图层着色</option>
-    </select>
+    <div class="region-mode-note">
+      <strong>地图默认按文化区域着色</strong>
+      <span>底图上的大色块表示文化区域，点位颜色也跟随区域；左侧图层只用于筛选主题。</span>
+    </div>
 
     <div class="quick-actions" aria-label="推荐入口">
       <button type="button" data-preset="ngari">阿里专题</button>
@@ -81,9 +80,9 @@
     <button id="close-sidebar" class="close-sidebar" aria-label="关闭详情">×</button>
     <div id="sidebar-content" class="sidebar-content">
       <p class="eyebrow">欢迎</p>
-      <h2>点击地图上的点位、故事线或推荐入口</h2>
+      <h2>先看大区域，再进入点位</h2>
       <p>
-        这个原型强调“资料可追溯”：每个点位都带有来源、坐标可信度、内容可信度与敏感度标签。阿里点位已加入更完整的专题卡片、图片位、看点清单和文化区域配色。
+        这个原型强调“资料可追溯”：每个点位都带有来源、坐标可信度、内容可信度与敏感度标签。地图现在默认显示文化区域色块与大标题；点位按区域着色，先帮助观众建立空间感，再进入寺院、工艺、神山圣湖与跨喜马拉雅节点。
       </p>
       <p class="hint">
         公开发布前，请逐笔核对藏文名、经纬度、历史叙述、图片授权与社区敏感性。

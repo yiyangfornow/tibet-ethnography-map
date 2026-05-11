@@ -51,12 +51,12 @@
     "diaspora_crossroads": "Diaspora & Crossroads / 流动与交汇节点"
   },
   "region_colors": {
-    "u_tsang": "#8f5f38",
-    "ngari": "#6c4038",
-    "kham": "#9a6d45",
-    "amdo": "#7f9691",
-    "himalayan": "#6e7f76",
-    "bhutan_sikkim": "#8c7a5c",
-    "diaspora_crossroads": "#7c6558"
+    "u_tsang": "#9b6a3c",
+    "ngari": "#7b423a",
+    "kham": "#b08450",
+    "amdo": "#7d9997",
+    "himalayan": "#6c8178",
+    "bhutan_sikkim": "#94805f",
+    "diaspora_crossroads": "#75665b"
   }
 }

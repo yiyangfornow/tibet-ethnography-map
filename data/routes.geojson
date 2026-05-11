@@ -201,8 +201,8 @@
         "region_label": "Kham / 康区",
         "categories": [
           "archive_print",
-          "religious_site",
-          "craft_practice"
+          "settlement",
+          "religious_site"
         ],
         "summary_short": "串联昌都、德格、宗萨、八邦、理塘与建塘，展示康区寺院、印经与交通网络。",
         "details": "路线是专题阅读路径，不代表历史道路或旅行建议。",
@@ -291,9 +291,9 @@
         "region_key": "amdo",
         "region_label": "Amdo / 安多",
         "categories": [
-          "intangible_heritage",
-          "religious_site",
-          "sacred_landscape"
+          "education_monastic",
+          "craft_practice",
+          "intangible_heritage"
         ],
         "summary_short": "从拉卜楞到郎木寺、阿坝、果洛与玉树，展示安多南缘与草原口传传统的关系。",
         "details": "此线为专题框架；格萨尔史诗等活态传统应避免被固定为单一地点。",
@@ -380,8 +380,8 @@
         "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
         "categories": [
           "religious_site",
-          "settlement",
-          "pilgrimage"
+          "pilgrimage",
+          "settlement"
         ],
         "summary_short": "从拉达克、斯皮提、木斯塘、昆布、锡金、不丹到达旺的跨喜马拉雅阅读路径。",
         "details": "这不是把所有区域等同为“西藏”，而是帮助用户理解藏传佛教、贸易、迁徙与山地文化联系。",
@@ -452,8 +452,7 @@
         "categories": [
           "sacred_landscape",
           "religious_site",
-          "natural_geography",
-          "intangible_heritage"
+          "natural_geography"
         ],
         "summary_short": "从普兰边境村落、冈仁波齐—玛旁雍错，到札达的托林寺、古格遗址与皮央东嘎石窟。",
         "details": "阿里专题线从普兰边境村落出发，经冈仁波齐—玛旁雍错—拉昂错—曲普温泉，进入札达的托林寺、古格遗址、札达土林与皮央东嘎石窟。它把宗教、非遗、王国遗址、石窟壁画和自然地貌放在同一条阅读路径里。",
