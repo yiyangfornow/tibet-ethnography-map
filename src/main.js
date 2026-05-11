@@ -13,19 +13,21 @@ const CATEGORY_ORDER = [
   'sacred_landscape',
   'settlement',
   'archive_print',
-  'medical_tradition'
+  'medical_tradition',
+  'natural_geography'
 ];
 
 const CATEGORY_COLORS = {
-  religious_site: '#d6a54e',
-  education_monastic: '#e6c16f',
-  pilgrimage: '#b85c58',
-  craft_practice: '#6fb19c',
-  intangible_heritage: '#8aa7d8',
-  sacred_landscape: '#66a6c9',
-  settlement: '#c8895b',
-  archive_print: '#b894d8',
-  medical_tradition: '#88c36f'
+  religious_site: '#8f5f38',
+  education_monastic: '#b58f5f',
+  pilgrimage: '#6c4038',
+  craft_practice: '#8c7a5c',
+  intangible_heritage: '#9a6d60',
+  sacred_landscape: '#7f9691',
+  settlement: '#a1744e',
+  archive_print: '#7c6558',
+  medical_tradition: '#7b8f69',
+  natural_geography: '#8f8b7a'
 };
 
 const state = {
@@ -43,7 +45,7 @@ const state = {
 
 const map = new maplibregl.Map({
   container: 'map',
-  style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+  style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
   center: [88.2, 31.0],
   zoom: 3.75,
   minZoom: 2.2,
@@ -158,7 +160,8 @@ function searchableText(feature) {
     p.summary_short,
     p.details,
     p.story_angle,
-    p.craft_or_practice
+    p.craft_or_practice,
+    JSON.stringify(p.body_sections || '')
   ].filter(Boolean).join(' ').toLowerCase();
 }
 
@@ -212,7 +215,7 @@ function addDataLayers() {
     type: 'line',
     source: 'routes',
     paint: {
-      'line-color': '#d8ad55',
+      'line-color': '#8f5f38',
       'line-opacity': 0.78,
       'line-width': [
         'interpolate', ['linear'], ['zoom'],
@@ -240,9 +243,9 @@ function addDataLayers() {
     paint: {
       'circle-color': [
         'step', ['get', 'point_count'],
-        '#8f2d2d',
-        10, '#a84b36',
-        30, '#d8ad55'
+        '#6c4038',
+        10, '#8f5f38',
+        30, '#b58f5f'
       ],
       'circle-radius': [
         'step', ['get', 'point_count'],
@@ -250,7 +253,7 @@ function addDataLayers() {
         10, 22,
         30, 29
       ],
-      'circle-stroke-color': '#f7ead2',
+      'circle-stroke-color': '#fffaf2',
       'circle-stroke-width': 1.4,
       'circle-opacity': 0.92
     }
@@ -267,7 +270,7 @@ function addDataLayers() {
       'text-size': 12
     },
     paint: {
-      'text-color': '#fff7e8'
+      'text-color': '#fffaf2'
     }
   });
 
@@ -284,7 +287,7 @@ function addDataLayers() {
         7, 6.5,
         11, 9
       ],
-      'circle-stroke-color': '#fff2d2',
+      'circle-stroke-color': '#f8f1e7',
       'circle-stroke-width': [
         'interpolate', ['linear'], ['zoom'],
         3, 0.8,
@@ -314,8 +317,8 @@ function addDataLayers() {
       'text-allow-overlap': false
     },
     paint: {
-      'text-color': '#f7ead2',
-      'text-halo-color': '#16100f',
+      'text-color': '#3b3027',
+      'text-halo-color': '#fffaf2',
       'text-halo-width': 1.6
     }
   });
@@ -511,6 +514,26 @@ function renderResults() {
   });
 }
 
+
+function renderBodySections(sections) {
+  const items = asArray(sections).filter(Boolean);
+  if (!items.length) return '';
+  return `
+    <div class="section-block">
+      ${items.map(section => {
+        const title = typeof section === 'object' ? section.title : '专题说明';
+        const body = typeof section === 'object' ? section.body : section;
+        return `
+          <div class="note-card">
+            <strong>${escapeHTML(title || '专题说明')}</strong>
+            <span>${escapeHTML(body || '')}</span>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
 function renderSidebar(feature, type = 'place') {
   const p = feature.properties || {};
   const categories = new Set(asArray(p.categories));
@@ -554,6 +577,7 @@ function renderSidebar(feature, type = 'place') {
     </div>
     <p>${escapeHTML(p.summary_short || '')}</p>
     <p>${escapeHTML(p.details || '')}</p>
+    ${renderBodySections(p.body_sections)}
 
     <div class="meta-grid">
       <div><strong>英文 / 转写名</strong><span>${escapeHTML(p.name_en || p.romanization || '—')}</span></div>

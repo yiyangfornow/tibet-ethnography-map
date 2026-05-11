@@ -70,5 +70,95 @@
     "url": "",
     "type": "internal_note",
     "note_zh": "示范性初稿。该点位需要人工复核藏文名、坐标、历史细节与授权素材。"
+  },
+  "ali_region_ethnic_religion": {
+    "title": "阿里地区行政公署：民族宗教",
+    "url": "https://www.al.gov.cn/zjal/mzzj.htm",
+    "type": "official_profile",
+    "note": "阿里地区民族结构、宗教派别与代表寺院的官方概况。"
+  },
+  "ali_a_level_scenic": {
+    "title": "阿里地区文化和旅游局：阿里地区A级景区简介",
+    "url": "https://lyfz.al.gov.cn/info/1742/15741.htm",
+    "type": "official_tourism",
+    "note": "含冈仁波齐—玛旁雍错景区等官方简表。"
+  },
+  "ali_manasarovar_water": {
+    "title": "阿里地区水利局：神圣而美丽的玛旁雍错",
+    "url": "https://sl.al.gov.cn/info/1903/2862.htm",
+    "type": "official_profile",
+    "note": "玛旁雍错的湖泊特征与水文地理说明。"
+  },
+  "ali_thousand_heartbeat": {
+    "title": "阿里地区行政公署：去西藏阿里，触摸古寺与非遗的“千年心跳”",
+    "url": "https://www.al.gov.cn/info/1020/182324.htm",
+    "type": "official_culture",
+    "note": "托林寺、科迦寺、古格遗址、普兰服饰与宣舞等内容的整合型官方介绍。"
+  },
+  "ali_khojarnath_village": {
+    "title": "阿里地区行政公署：阿里边境村里的藏戏团",
+    "url": "https://www.al.gov.cn/info/1020/128867.htm",
+    "type": "official_culture",
+    "note": "科迦村、科迦寺及其边境文化环境。"
+  },
+  "ali_purang_attire": {
+    "title": "阿里地区行政公署：华丽稀有的普兰服饰",
+    "url": "https://www.al.gov.cn/info/1020/128847.htm",
+    "type": "official_culture",
+    "note": "普兰服饰的沿袭、构成与保存现状。"
+  },
+  "ali_purang_attire_xuan": {
+    "title": "阿里地区行政公署：探寻阿里之美，共赏普兰服饰与宣舞之韵！",
+    "url": "https://www.al.gov.cn/info/1178/129187.htm",
+    "type": "official_culture",
+    "note": "普兰科迦村的飞天服饰展示与宣舞影像报道。"
+  },
+  "ali_xuan_dance": {
+    "title": "阿里地区行政公署：人文丨宣舞，古老舞蹈今放异彩",
+    "url": "https://www.al.gov.cn/info/1020/128857.htm",
+    "type": "official_culture",
+    "note": "宣舞的历史渊源、地域分布与表演特征。"
+  },
+  "zhada_earth_forest": {
+    "title": "札达县人民政府：西藏阿里：壮美札达土林",
+    "url": "https://www.zhada.gov.cn/info/1026/4341.htm",
+    "type": "official_profile",
+    "note": "札达土林地貌与国家地质公园信息。"
+  },
+  "ali_guge_ruins": {
+    "title": "阿里地区行政公署：藏西的“秘堡”——古格扎布让遗址",
+    "url": "https://www.al.gov.cn/info/1019/128737.htm",
+    "type": "official_culture",
+    "note": "古格王国遗址的历史与文物价值。"
+  },
+  "tholing_official": {
+    "title": "阿里地区行政公署：见证汉藏民族团结的历史遗迹——托林寺",
+    "url": "https://www.al.gov.cn/info/1610/53936.htm",
+    "type": "official_culture",
+    "note": "托林寺的创建时间、寺院地位与保护情况。"
+  },
+  "piyang_donggar_official": {
+    "title": "阿里地区行政公署：“守护时光，然后向未来传递”——西藏阿里“皮央和东嘎遗址”的石窟守护人",
+    "url": "https://www.al.gov.cn/info/1019/176494.htm",
+    "type": "official_culture",
+    "note": "皮央和东嘎遗址的发现、保护与遗址价值。"
+  },
+  "purang_profile": {
+    "title": "阿里地区文化和旅游局：您好，我叫普兰，这是我的名片",
+    "url": "https://lyfz.al.gov.cn/info/1742/19551.htm",
+    "type": "official_profile",
+    "note": "普兰县的地理区位、边境属性与山水资源。"
+  },
+  "moa_qingzang_route": {
+    "title": "农业农村部：西藏（阿里地区）札达县、噶尔县 青藏高原温泉风光之旅",
+    "url": "https://www.moa.gov.cn/ztzl/2023_qcz/202311/t20231102_6439671.htm",
+    "type": "official_profile",
+    "note": "托林寺与札达土林的官方简介。"
+  },
+  "britannica_kailash": {
+    "title": "Britannica: Mount Kailash",
+    "url": "https://www.britannica.com/place/Mount-Kailash",
+    "type": "encyclopedic_reference",
+    "note": "Cross-religious and geographic reference for Mount Kailash, Manasarovar and Rakshastal context."
   }
 }

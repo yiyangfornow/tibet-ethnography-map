@@ -956,20 +956,35 @@
         ],
         "tradition": [],
         "era": null,
-        "summary_short": "阿里地区的重要历史遗址节点，适合连接西部藏地、佛教艺术、贸易路线与遗址保护。",
-        "details": "遗址类点位需要注意文物保护信息；不展示可导致破坏的细部位置或进入方式。",
-        "story_angle": "遗址、壁画、西部藏地",
-        "craft_or_practice": null,
+        "summary_short": "古格王国遗址坐落于札达土林之中，是西藏西部政治史、堡寨建筑、壁画艺术与跨区域交流的关键遗存。",
+        "details": "古格遗址最容易被写成“消失王国”的神秘故事，但更重要的是它如何把王宫、寺庙、民居、防御和壁画组织在同一座山体城市中。官方资料称古格王朝存在于公元9世纪到17世纪，遗址佛殿壁画受多种文化影响，能体现古格与周边区域交流的痕迹。",
+        "story_angle": "王朝遗址、城堡聚落、消失王国叙事",
+        "craft_or_practice": "壁画、城堡防御结构、王室与寺院遗存",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "public",
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "ali_guge_ruins",
+          "ali_thousand_heartbeat"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "body_sections": [
+          {
+            "title": "编辑提醒",
+            "body": "可以保留“秘堡”感，但不要让神秘化叙事替代历史结构：王权、寺院、贸易、战争、生态环境都应进入解释框架。"
+          },
+          {
+            "title": "地图关系",
+            "body": "与托林寺、札达土林、皮央东嘎石窟形成“古格—石窟—土林”专题线。"
+          }
+        ],
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
       }
     },
     {
@@ -996,20 +1011,36 @@
         ],
         "tradition": [],
         "era": null,
-        "summary_short": "阿里地区重要寺院节点，可与古格遗址、札达土林、西部艺术史关联。",
-        "details": "原型为概览点；壁画、建筑年代与文献关系需后续复核。",
-        "story_angle": "阿里、佛教艺术、西部路线",
-        "craft_or_practice": null,
+        "summary_short": "托林寺始建于公元996年，是古格王朝重要寺院，被称作阿里“第一寺”。它在西藏佛教后弘期、古格艺术和阿里寺院建筑史中占据核心位置。",
+        "details": "托林寺把阿里放入西藏佛教史的关键阶段：王权资助、译经网络、寺院制度和跨喜马拉雅艺术风格在这里汇合。官方资料提到寺院由益西沃创建，格局与早期佛教寺院传统有关，白殿等空间保存古格艺术壁画线索。地图上它应与古格王国遗址、皮央东嘎石窟和札达土林共同阅读。",
+        "story_angle": "后弘期寺院、古格艺术、制度与壁画",
+        "craft_or_practice": "古格壁画、寺院建筑、学修与法会记忆",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "public",
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "tholing_official",
+          "ali_thousand_heartbeat",
+          "ali_region_ethnic_religion"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "body_sections": [
+          {
+            "title": "可视化重点",
+            "body": "不只标寺院位置，更要呈现托林寺与札达土林、象泉河谷、古格都城遗址之间的距离和视线关系。"
+          },
+          {
+            "title": "继续扩写方向",
+            "body": "益西沃、仁钦桑布、阿底峡、后弘期译经、白殿壁画与古格艺术。"
+          }
+        ],
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
       }
     },
     {
@@ -1036,20 +1067,36 @@
         ],
         "tradition": [],
         "era": null,
-        "summary_short": "跨宗教共享的神山朝圣地景，是西部藏地最重要的圣山节点之一。",
-        "details": "只展示公共概览和伦理提醒；实际转山路线、生态承载与信仰礼仪需要谨慎呈现。",
-        "story_angle": "神山、跨宗教朝圣、西部藏地",
-        "craft_or_practice": null,
+        "summary_short": "冈仁波齐是阿里最具跨地域意义的神山地景，被佛教、苯教、印度教、耆那教等传统共同赋予神圣意义，也是转山朝圣网络的中心。",
+        "details": "冈仁波齐不应只被呈现为一座山峰。它是神话宇宙、地理中心、边境交通、身体苦行与当代旅游管理相互交织的场所。地图上可以把它作为“神山—圣湖—温泉—口岸—寺院”网络的中心，而不是单一点位。",
+        "story_angle": "神山、跨宗教朝圣、阿里地景中心",
+        "craft_or_practice": "转山、经幡、口传圣地叙事",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "approximate_only",
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "ali_a_level_scenic",
+          "purang_profile",
+          "britannica_kailash"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "body_sections": [
+          {
+            "title": "地图叙事",
+            "body": "与玛旁雍错、拉昂错、塔钦、转山路径、曲普温泉共同构成阿里最重要的朝圣地景组。"
+          },
+          {
+            "title": "内容边界",
+            "body": "公开页面宜说明其跨宗教意义，但不需要公开敏感路线、个人修行点或未经许可的仪式细节。"
+          }
+        ],
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
       }
     },
     {
@@ -1076,20 +1123,37 @@
         ],
         "tradition": [],
         "era": null,
-        "summary_short": "冈仁波齐附近的圣湖节点，可用于展示圣山圣湖组合、朝圣路径与生态地景。",
-        "details": "避免把朝圣实践简化成景点打卡，应保留多宗教与多社区视角。",
-        "story_angle": "圣湖、神山组合、朝圣",
-        "craft_or_practice": null,
+        "summary_short": "玛旁雍错位于冈仁波齐以南，是阿里最重要的圣湖之一。它既是高原淡水湖与断陷盆地，也是朝圣、神话和湖岸礼仪的复合地景。",
+        "details": "水利资料将玛旁雍错描述为高海拔内陆淡水湖，位于冈底斯山与喜马拉雅山之间的宽谷/湖盆环境中。文化地图中，它应与冈仁波齐、纳木那尼峰、拉昂错和环湖朝圣相连，呈现“山—湖—身体—神话”的组合。",
+        "story_angle": "圣湖、湖泊文化、山湖组合地景",
+        "craft_or_practice": "环湖朝圣、供奉、湖岸礼仪与地理想象",
         "coordinate_confidence": "approximate",
         "content_confidence": "medium",
         "sensitivity": "public",
         "source_ids": [
           "thl_places",
           "wikidata_osm_seed",
-          "editorial_seed"
+          "editorial_seed",
+          "ali_manasarovar_water",
+          "ali_a_level_scenic",
+          "purang_profile",
+          "britannica_kailash"
         ],
         "review_status": "seed_needs_human_review",
-        "last_reviewed": "2026-05-11"
+        "last_reviewed": "2026-05-11",
+        "body_sections": [
+          {
+            "title": "自然地理",
+            "body": "湖泊、水系、冰水堆积、断陷盆地等地理线索，能帮助用户理解圣湖为何不仅是宗教对象，也是阿里的生态地景。"
+          },
+          {
+            "title": "民族志角度",
+            "body": "可记录环湖路线、湖岸供奉、旅行季节、摄影与朝圣之间的张力。"
+          }
+        ],
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
       }
     },
     {
@@ -2856,6 +2920,392 @@
         ],
         "review_status": "seed_needs_human_review",
         "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1785,
+          30.2863
+        ]
+      },
+      "properties": {
+        "id": "purang_khojarnath",
+        "name_zh": "科迦寺",
+        "name_en": "Khojarnath / Khorchak Monastery",
+        "name_bo": "",
+        "romanization": "Khor chag dgon pa",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "pilgrimage"
+        ],
+        "tradition": [
+          "Sakya",
+          "borderland pilgrimage"
+        ],
+        "era": "996 CE / 后弘期以来",
+        "summary_short": "科迦寺位于普兰县科迦村，是阿里西南边境最重要的千年寺院之一。它与科迦村的形成、跨境朝拜、边贸记忆和后弘期佛教传播紧密相连。",
+        "details": "科迦寺不是孤立的“景点”，而是村落空间的核心。官方资料称科迦村“先有科迦寺后有科迦村”，寺院创建于公元996年前后，与仁钦桑布、后弘期佛教以及普兰作为中国、尼泊尔、印度交界地带的文化交流有关。把它放在地图上时，建议同时呈现寺院、村落、边境市场、节庆与藏戏/宣舞之间的关系。",
+        "story_angle": "边境寺院、后弘期佛教、村寺共生",
+        "craft_or_practice": "壁画、木构、跨境朝拜与节庆活动",
+        "body_sections": [
+          {
+            "title": "为什么放在民族志地图里",
+            "body": "它能体现“村因寺而成”的空间关系：宗教建筑、村落生活、边境贸易与跨境朝拜在同一地点叠合。"
+          },
+          {
+            "title": "可继续补充",
+            "body": "科迦寺壁画、木构、百柱殿、科迦藏戏团、普兰口岸与唐嘎边贸市场之间的历史联系。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "ali_khojarnath_village",
+          "ali_thousand_heartbeat",
+          "ali_region_ethnic_religion"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1772,
+          30.2888
+        ]
+      },
+      "properties": {
+        "id": "purang_attire_xuan",
+        "name_zh": "普兰服饰与宣舞（科迦村）",
+        "name_en": "Purang Costume and Xuan Dance",
+        "name_bo": "",
+        "romanization": "Pu lan fei tian fu shi / Xuan wu",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "intangible_heritage",
+        "categories": [
+          "intangible_heritage",
+          "craft_practice",
+          "settlement"
+        ],
+        "tradition": [
+          "Zhangzhung cultural memory",
+          "living heritage"
+        ],
+        "era": "活态传统 / 2008年国家级非遗相关项目",
+        "summary_short": "普兰服饰与宣舞是阿里活态非遗的核心线索之一：珠宝、羊毛织物、刺绣与披风构成“飞天/孔雀”服饰，宣舞则以说、唱、跳结合的方式在节庆与仪式中呈现。",
+        "details": "普兰服饰已有上千年历史，最具代表性的女性“飞天服饰”或“孔雀服饰”常见于科迦村等地的节庆展示。宣舞在阿里多地流传，官方资料将其描述为具有象雄文化特色的民间传统艺术，包含说唱、舞蹈、仪式与节庆内容。这个点位应避免仅做“漂亮服饰展示”，而要写出服饰、身体、珠宝、家族传承、村落仪式和女性劳动之间的关系。",
+        "story_angle": "活态非遗、服饰与舞蹈一体、边境村落日常",
+        "craft_or_practice": "孔雀/飞天服饰、宣舞、节庆展示、口传唱词",
+        "body_sections": [
+          {
+            "title": "视觉元素",
+            "body": "孔雀式披展轮廓、红/蓝/金等高对比色、松石、珊瑚、玛瑙、珍珠、蜜蜡等装饰材料。"
+          },
+          {
+            "title": "民族志问题",
+            "body": "谁保管服饰？什么时候穿？谁负责穿戴、维护和解释？舞蹈唱词如何在村落中传承？这些问题比“服饰有多重”更重要。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "ali_purang_attire",
+          "ali_purang_attire_xuan",
+          "ali_xuan_dance"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.223,
+          30.719
+        ]
+      },
+      "properties": {
+        "id": "ngari_rakshastal",
+        "name_zh": "拉昂错",
+        "name_en": "Lake Rakshastal",
+        "name_bo": "",
+        "romanization": "La ang tso",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "natural_geography",
+        "categories": [
+          "natural_geography",
+          "sacred_landscape"
+        ],
+        "tradition": [
+          "lake landscape"
+        ],
+        "era": "高原湖盆地景",
+        "summary_short": "拉昂错与玛旁雍错相邻，常在“圣湖—鬼湖”或淡水—咸水的对照叙事中出现，是阿里湖盆景观与地方想象的重要节点。",
+        "details": "拉昂错适合作为“自然地理如何被文化命名”的案例：两个湖泊相邻，却在水性、颜色、传说与观看方式上形成鲜明对照。地图叙事可以把它放在玛旁雍错旁边，让用户理解阿里圣地并非单一符号，而是由成对、互文和对照关系构成。",
+        "story_angle": "高原湖盆、圣俗对照、自然—信仰复合地景",
+        "craft_or_practice": "地方地名叙事、湖泊观景与朝圣路径记忆",
+        "body_sections": [
+          {
+            "title": "地图叙事",
+            "body": "建议与玛旁雍错、冈仁波齐、纳木那尼峰一起形成湖盆专题。"
+          },
+          {
+            "title": "待补资料",
+            "body": "需要继续核对藏文名、当地口述称谓、水文资料以及不同宗教传统中的解释差异。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "purang_profile",
+          "ali_a_level_scenic",
+          "britannica_kailash"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8,
+          31.485
+        ]
+      },
+      "properties": {
+        "id": "zanda_earth_forest",
+        "name_zh": "札达土林",
+        "name_en": "Zhada Earth Forest",
+        "name_bo": "",
+        "romanization": "",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "natural_geography",
+        "categories": [
+          "natural_geography",
+          "settlement"
+        ],
+        "tradition": [
+          "geological landscape"
+        ],
+        "era": "第三系地层风化地貌 / 国家地质公园",
+        "summary_short": "札达土林是阿里最具辨识度的自然地理景观之一。沟壑、土柱、土塔与古堡般的地貌，使古格遗址和皮央东嘎石窟获得了独特的视觉背景。",
+        "details": "官方资料称札达土林位于札达县境内，沉积厚度达数千米，并被列为国家地质公园。它不是古格遗址的“背景板”，而是决定人类聚落、交通、视线、防御和洞窟开凿条件的地理结构。地图应让用户看到自然地理与历史文化如何共同成形。",
+        "story_angle": "土林地貌、地质公园、景观与历史共构",
+        "craft_or_practice": "地景观察、摄影、地貌与遗址关联叙事",
+        "body_sections": [
+          {
+            "title": "视觉叙事",
+            "body": "可使用土色、阴影、峡谷纹理、地貌剖面等设计语言，把“土林”从风景照片转化为解释性地景。"
+          },
+          {
+            "title": "继续扩充",
+            "body": "补充成因、典型观景点、地质公园范围、与象泉河谷的关系。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "zhada_earth_forest",
+          "moa_qingzang_route"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.831,
+          31.596
+        ]
+      },
+      "properties": {
+        "id": "zanda_piyang",
+        "name_zh": "皮央石窟",
+        "name_en": "Piyang Cave Complex",
+        "name_bo": "",
+        "romanization": "Spyi yang",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "archive_print"
+        ],
+        "tradition": [
+          "Guge period Buddhist art"
+        ],
+        "era": "10世纪以后 / 1992年后进入公共视野",
+        "summary_short": "皮央石窟是“皮央和东嘎遗址”的重要组成部分，由寺院、城堡、石窟和塔林等遗存构成，是阿里佛教石窟艺术的重要节点。",
+        "details": "近年官方报道将皮央石窟称为“藏在土林里的艺术宝藏”。遗址与东嘎相邻，1992年以后进入更广泛的公众和文物保护视野，2013年被公布为全国重点文物保护单位的一部分。它适合放在“守护、发现、保护与传递”的专题中，而不是只做旅游攻略。",
+        "story_angle": "石窟群、古格时期艺术、土林中的宗教遗存",
+        "craft_or_practice": "壁画、石窟开凿、佛教图像与保护修复",
+        "body_sections": [
+          {
+            "title": "看什么",
+            "body": "洞窟、壁画、山崖、土林、塔林，以及守护人和文物工作者如何让遗址从地方记忆进入公共文化视野。"
+          },
+          {
+            "title": "敏感性",
+            "body": "不要发布未开放洞窟、保护薄弱点、壁画近距离细节和可能诱导破坏的路线。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "piyang_donggar_official"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.789,
+          31.615
+        ]
+      },
+      "properties": {
+        "id": "zanda_donggar",
+        "name_zh": "东嘎石窟",
+        "name_en": "Donggar Cave Complex",
+        "name_bo": "",
+        "romanization": "",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "archive_print"
+        ],
+        "tradition": [
+          "Guge period Buddhist art"
+        ],
+        "era": "10世纪以后 / 1992年后进入公共视野",
+        "summary_short": "东嘎石窟与皮央石窟共同构成阿里重要石窟壁画遗址群。它们让札达不只是“古格遗址所在地”，也是西藏西部艺术史和考古保护的重要场域。",
+        "details": "官方报道提到，守窟人从1980年代末开始守护石窟，而这些遗址直到1992年才被文物普查队发现。这个点位特别适合呈现“地方守护—考古发现—国家级保护—公众传播”的时间线。",
+        "story_angle": "石窟保护、壁画遗存、阿里考古",
+        "craft_or_practice": "守窟、壁画保护、遗址讲解",
+        "body_sections": [
+          {
+            "title": "民族志角度",
+            "body": "记录守窟人的日常、天气、钥匙、巡查、讲解和代际传递，比单纯罗列洞窟数量更有温度。"
+          },
+          {
+            "title": "与皮央的关系",
+            "body": "建议在网站中把东嘎与皮央分成两个点，同时在故事线里合并为一个遗址群。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "piyang_donggar_official"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.102,
+          31.032
+        ]
+      },
+      "properties": {
+        "id": "ngari_tirthapuri",
+        "name_zh": "曲普温泉 / 提尔塔普里",
+        "name_en": "Tirthapuri Hot Springs",
+        "name_bo": "",
+        "romanization": "Ti rtha pu ri",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "medical_tradition",
+        "categories": [
+          "medical_tradition",
+          "sacred_landscape",
+          "pilgrimage",
+          "natural_geography"
+        ],
+        "tradition": [
+          "healing landscape"
+        ],
+        "era": "活态朝圣与疗愈地景",
+        "summary_short": "曲普温泉 / 提尔塔普里位于冈仁波齐—玛旁雍错朝圣地景周边，兼具温泉疗愈、身体洗浴、停驻休整和圣地巡礼的意义。",
+        "details": "这个点位把“自然地理”与“身体经验”连起来：高原旅行并不只发生在寺院和遗址，也发生在温泉、水汽、疲惫、洁净、休息与再出发之中。普兰资料提到曲普温泉是旅行者打卡的资源之一；正式扩写时应核对当地藏文名、泉口位置、开放管理和宗教解释。",
+        "story_angle": "温泉疗愈、神圣地景、身体实践",
+        "craft_or_practice": "温泉洗浴、朝圣停驻、地方疗愈经验",
+        "body_sections": [
+          {
+            "title": "为什么重要",
+            "body": "它让朝圣地图从“看见圣山”扩展到“身体如何经历高原”。"
+          },
+          {
+            "title": "待核验",
+            "body": "坐标、地方名称、泉水使用规则、附近寺院/遗址关系与季节性可达性。"
+          }
+        ],
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "purang_profile"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11",
+        "route_ids": [
+          "ngari_plateau_arc"
+        ]
       }
     }
   ]

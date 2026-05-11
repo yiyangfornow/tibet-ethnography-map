@@ -35,6 +35,10 @@
     "education_monastic": {
       "label_zh": "寺院教育 / 修学中心",
       "description": "学院、佛学院、辩经、僧团学习与传承网络"
+    },
+    "natural_geography": {
+      "label_zh": "自然地理 / 地貌",
+      "description": "土林、湖盆、温泉、峡谷、冰川与地质地貌线索"
     }
   },
   "regions": {

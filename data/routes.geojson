@@ -391,6 +391,80 @@
         ],
         "sensitivity": "public"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.1785,
+            30.2863
+          ],
+          [
+            81.1772,
+            30.2888
+          ],
+          [
+            81.3642,
+            30.705
+          ],
+          [
+            81.223,
+            30.719
+          ],
+          [
+            81.3119,
+            31.067
+          ],
+          [
+            81.102,
+            31.032
+          ],
+          [
+            79.723,
+            31.479
+          ],
+          [
+            79.6902,
+            31.4761
+          ],
+          [
+            79.8,
+            31.485
+          ],
+          [
+            79.789,
+            31.615
+          ],
+          [
+            79.831,
+            31.596
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ngari_plateau_arc",
+        "name_zh": "阿里：圣山圣湖、古格与土林",
+        "name_en": "Ngari sacred mountains, Guge and earth forests",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "categories": [
+          "sacred_landscape",
+          "religious_site",
+          "natural_geography",
+          "intangible_heritage"
+        ],
+        "summary_short": "从普兰边境村落、冈仁波齐—玛旁雍错，到札达的托林寺、古格遗址与皮央东嘎石窟。",
+        "details": "这条线不是导航路线，而是阿里专题叙事线：用圣山圣湖、边境寺院、活态非遗、土林地貌、古格遗址与石窟群串联西部藏地的宗教、历史与自然地理。",
+        "source_ids": [
+          "ali_thousand_heartbeat",
+          "ali_a_level_scenic",
+          "zhada_earth_forest",
+          "piyang_donggar_official"
+        ],
+        "sensitivity": "public"
+      }
     }
   ]
 }
