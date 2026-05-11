@@ -1,0 +1,2862 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Tibet Ethnography Map - Tibetan cultural regions seed dataset",
+    "scope_note_zh": "本数据集按藏文化区域做原型，覆盖卫藏、阿里、康区、安多、跨喜马拉雅、不丹—锡金与流动交汇节点；不是行政边界图。",
+    "created": "2026-05-11",
+    "status": "prototype_seed_dataset",
+    "review_warning_zh": "所有点位在正式公开前都应逐笔核对坐标、藏文名、历史叙述、图片授权与敏感性。"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1322,
+          29.652
+        ]
+      },
+      "properties": {
+        "id": "lhasa_city",
+        "name_zh": "拉萨历史城区",
+        "name_en": "Lhasa historic city",
+        "name_bo": "ལྷ་ས་",
+        "romanization": "Lha sa",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "卫藏核心城市之一，也是许多朝圣、寺院教育与城市转经空间的交汇点。",
+        "details": "适合作为全图的入口节点：从八廓、大昭寺、布达拉宫到三大寺，拉萨的城市空间本身就是宗教、政治记忆与日常市场的叠合。",
+        "story_angle": "城市、朝圣、市场、权力记忆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1329,
+          29.6524
+        ]
+      },
+      "properties": {
+        "id": "jokhang",
+        "name_zh": "大昭寺",
+        "name_en": "Jokhang Temple",
+        "name_bo": "ཇོ་ཁང་",
+        "romanization": "Jo khang",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉萨最重要的朝圣地标之一，和八廓转经空间构成密不可分的城市宗教核心。",
+        "details": "侧边栏可扩展为：建寺传说、佛像与朝圣叙事、八廓空间、节庆与日常供养。",
+        "story_angle": "朝圣中心、城市核心、王朝记忆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1332,
+          29.6522
+        ]
+      },
+      "properties": {
+        "id": "barkhor",
+        "name_zh": "八廓街转经空间",
+        "name_en": "Barkhor circumambulation circuit",
+        "name_bo": "བར་སྐོར་",
+        "romanization": "Bar skor",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "pilgrimage",
+        "categories": [
+          "pilgrimage",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "围绕大昭寺形成的转经与市集空间，是宗教实践、商业活动与城市生活相互交织的场所。",
+        "details": "建议后续做成线状路线，记录转经方向、节点、店铺类型、朝圣者行为与空间节奏。",
+        "story_angle": "转经、市场、街巷民族志",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1175,
+          29.6578
+        ]
+      },
+      "properties": {
+        "id": "potala",
+        "name_zh": "布达拉宫",
+        "name_en": "Potala Palace",
+        "name_bo": "པོ་ཏ་ལ་",
+        "romanization": "Po ta la",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉萨山体宫堡建筑与政治宗教记忆的重要节点。",
+        "details": "第一版只放公开建筑与历史概述；深入内容应核对建筑史、壁画、制度史与图像授权。",
+        "story_angle": "宫堡、城市天际线、政治宗教记忆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.046,
+          29.6765
+        ]
+      },
+      "properties": {
+        "id": "drepung",
+        "name_zh": "哲蚌寺",
+        "name_en": "Drepung Monastery",
+        "name_bo": "འབྲས་སྤུངས་",
+        "romanization": "Bras spungs",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "education_monastic",
+        "categories": [
+          "education_monastic",
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "格鲁派重要寺院之一，可作为寺院教育、僧团组织与拉萨郊区宗教地景的入口。",
+        "details": "后续可补充学院体系、辩经、节庆与山地空间关系。",
+        "story_angle": "寺院教育、山地寺院、格鲁派",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1419,
+          29.6986
+        ]
+      },
+      "properties": {
+        "id": "sera",
+        "name_zh": "色拉寺",
+        "name_en": "Sera Monastery",
+        "name_bo": "སེ་ར་",
+        "romanization": "Se ra",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "education_monastic",
+        "categories": [
+          "education_monastic",
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "格鲁派重要寺院之一，常被用来讨论寺院教育、辩经实践与拉萨北郊宗教空间。",
+        "details": "页面可加入“寺院教育”标签，并和哲蚌、甘丹组成拉萨修学网络。",
+        "story_angle": "辩经、寺院教育、拉萨北郊",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.4593,
+          29.7706
+        ]
+      },
+      "properties": {
+        "id": "ganden",
+        "name_zh": "甘丹寺",
+        "name_en": "Ganden Monastery",
+        "name_bo": "དགའ་ལྡན་",
+        "romanization": "Dga' ldan",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "education_monastic",
+        "categories": [
+          "education_monastic",
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "格鲁派重要寺院与朝圣地点，可作为山地寺院、教派记忆与拉萨—墨竹工卡沿线的节点。",
+        "details": "建议后续加入环山转经路线和视域分析，而不是只做一个点。",
+        "story_angle": "山地寺院、格鲁派、转山",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.505,
+          29.321
+        ]
+      },
+      "properties": {
+        "id": "samye",
+        "name_zh": "桑耶寺",
+        "name_en": "Samye Monastery",
+        "name_bo": "བསམ་ཡས་",
+        "romanization": "Bsam yas",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "雅鲁藏布江沿线重要寺院之一，常被视为早期藏传佛教史的关键地点。",
+        "details": "适合作为“雅砻河谷—吐蕃记忆”故事线的一站。",
+        "story_angle": "吐蕃记忆、雅砻河谷、佛教传播",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.769,
+          29.144
+        ]
+      },
+      "properties": {
+        "id": "yumbulagang",
+        "name_zh": "雍布拉康",
+        "name_en": "Yumbulagang",
+        "name_bo": "ཡུམ་བུ་བླ་སྒང་",
+        "romanization": "Yum bu bla sgang",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "雅砻河谷山脊上的宫堡式地标，适合连接早期王权传说、山地建筑与河谷聚落。",
+        "details": "侧边栏可讲“王权传说”和“河谷视野”，但具体年代与史实需谨慎标注。",
+        "story_angle": "王权传说、河谷、山脊建筑",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.768,
+          29.236
+        ]
+      },
+      "properties": {
+        "id": "tsetang",
+        "name_zh": "泽当 / 山南河谷",
+        "name_en": "Tsetang / Yarlung valley node",
+        "name_bo": "རྩེ་ཐང་",
+        "romanization": "Rtse thang",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "山南地区的河谷城镇节点，可作为雅砻文化地景的入口。",
+        "details": "用于组织桑耶、雍布拉康、藏医药浴与河谷聚落等点位。",
+        "story_angle": "河谷聚落、交通节点、地方史",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.41,
+          29.17
+        ]
+      },
+      "properties": {
+        "id": "mindrolling",
+        "name_zh": "敏珠林寺",
+        "name_en": "Mindrolling Monastery",
+        "name_bo": "སྨིན་གྲོལ་གླིང་",
+        "romanization": "Smin grol gling",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "宁玛派重要寺院之一，适合展示不同教派与寺院网络的空间分布。",
+        "details": "坐标与介绍为原型初稿，应在正式发布前核对寺院资料和藏文转写。",
+        "story_angle": "宁玛派、寺院网络、山南",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.645,
+          29.899
+        ]
+      },
+      "properties": {
+        "id": "tsurphu",
+        "name_zh": "楚布寺",
+        "name_en": "Tsurphu Monastery",
+        "name_bo": "མཚུར་ཕུ་",
+        "romanization": "Mtshur phu",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "噶玛噶举传统的重要寺院节点，位于拉萨以西北的山谷环境中。",
+        "details": "可扩展为噶举派寺院网络、山谷修行空间与朝圣路线。",
+        "story_angle": "噶举派、山谷、朝圣",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.879,
+          30.217
+        ]
+      },
+      "properties": {
+        "id": "drigung_til",
+        "name_zh": "直贡梯寺",
+        "name_en": "Drigung Til Monastery",
+        "name_bo": "འབྲི་གུང་མཐིལ་",
+        "romanization": "'Bri gung mthil",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "直贡噶举传统的重要寺院节点，适合连接寺院、山地与葬仪/仪式地景的讨论。",
+        "details": "涉及葬仪与仪式知识时，不建议公开细节化、可操作化的敏感信息。",
+        "story_angle": "噶举派、仪式地景、山地寺院",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.63,
+          30.27
+        ]
+      },
+      "properties": {
+        "id": "reting",
+        "name_zh": "热振寺",
+        "name_en": "Reting Monastery",
+        "name_bo": "རྭ་སྒྲེང་",
+        "romanization": "Rwa sgreng",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉萨以北区域的重要寺院和历史地景节点。",
+        "details": "原型中保留为概览点，历史细节需以藏学资料和地方资料复核。",
+        "story_angle": "历史寺院、山地林地、政治宗教记忆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.8806,
+          29.2697
+        ]
+      },
+      "properties": {
+        "id": "tashilhunpo",
+        "name_zh": "扎什伦布寺",
+        "name_en": "Tashilhunpo Monastery",
+        "name_bo": "བཀྲ་ཤིས་ལྷུན་པོ་",
+        "romanization": "Bkra shis lhun po",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "日喀则的重要寺院与城市地标，可作为后藏宗教政治与区域中心的入口。",
+        "details": "可扩展主题：后藏城市、寺院经济、人物谱系、节庆与朝圣。",
+        "story_angle": "后藏、城市寺院、区域中心",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.604,
+          28.945
+        ]
+      },
+      "properties": {
+        "id": "gyantse_pelkor",
+        "name_zh": "江孜白居寺与十万佛塔",
+        "name_en": "Pelkor Chode / Gyantse Kumbum",
+        "name_bo": "དཔལ་འཁོར་ཆོས་སྡེ་",
+        "romanization": "Dpal 'khor chos sde",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "江孜的寺院与佛塔艺术节点，适合展示壁画、建筑与后藏交通线的关系。",
+        "details": "图片和壁画内容必须处理授权；正式版可做成图像志专题。",
+        "story_angle": "壁画、佛塔、后藏路线",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.01,
+          28.902
+        ]
+      },
+      "properties": {
+        "id": "sakya",
+        "name_zh": "萨迦寺",
+        "name_en": "Sakya Monastery",
+        "name_bo": "ས་སྐྱ་དགོན་པ་",
+        "romanization": "Sa skya dgon pa",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "archive_print"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "萨迦派重要寺院与文献传统节点。",
+        "details": "建议后续接入 BDRC / BUDA 的文本与人物资料，做成宗派与文献网络视图。",
+        "story_angle": "萨迦派、文献、后藏",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.782,
+          29.21
+        ]
+      },
+      "properties": {
+        "id": "shalu",
+        "name_zh": "夏鲁寺",
+        "name_en": "Shalu Monastery",
+        "name_bo": "ཞྭ་ལུ་",
+        "romanization": "Zhwa lu",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "后藏重要寺院之一，可作为壁画、建筑与跨区域艺术影响的专题节点。",
+        "details": "第一版只做概览；艺术史细节需要图像与文献审校。",
+        "story_angle": "壁画、艺术史、后藏寺院",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.855,
+          28.214
+        ]
+      },
+      "properties": {
+        "id": "rongbuk",
+        "name_zh": "绒布寺 / 珠峰北麓",
+        "name_en": "Rongbuk Monastery / Everest north side",
+        "name_bo": "རོང་ཕུ་",
+        "romanization": "Rong phu",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "religious_site",
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "珠峰北麓的寺院与高山地景节点，适合展示山地朝圣、边地交通与现代登山叙事的交汇。",
+        "details": "不要把登山路线和敏感地理信息做得过于细碎；原型只显示公共地标。",
+        "story_angle": "高山地景、寺院、边地",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.62,
+          30.77
+        ]
+      },
+      "properties": {
+        "id": "namtso",
+        "name_zh": "纳木错",
+        "name_en": "Namtso Lake",
+        "name_bo": "གནམ་མཚོ་",
+        "romanization": "Gnam mtsho",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "藏北重要圣湖与高原地景节点。",
+        "details": "适合做生态、牧业、朝圣与旅游化之间的多层叙事；具体路线需注意环境保护。",
+        "story_angle": "圣湖、高原、生态与朝圣",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.673,
+          29.188
+        ]
+      },
+      "properties": {
+        "id": "yamdrok",
+        "name_zh": "羊卓雍错",
+        "name_en": "Yamdrok Lake",
+        "name_bo": "ཡར་འབྲོག་གཡུ་མཚོ་",
+        "romanization": "Yar 'brog g.yu mtsho",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉萨—江孜路线上的圣湖地景节点。",
+        "details": "可扩展为湖泊颜色、观景点、朝圣叙事与现代旅游摄影的民族志专题。",
+        "story_angle": "圣湖、路线景观、摄影与朝圣",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.148,
+          29.445
+        ]
+      },
+      "properties": {
+        "id": "nyemo_tunba_incense",
+        "name_zh": "尼木吞巴藏香",
+        "name_en": "Nyemo / Tunba Tibetan incense",
+        "name_bo": null,
+        "romanization": "Nyemo / Tunba",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "craft_practice",
+        "categories": [
+          "craft_practice",
+          "intangible_heritage",
+          "medical_tradition"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "尼木吞巴常被介绍为藏香制作的重要村镇节点，可用来展示香料、药材、水磨与手工艺传承。",
+        "details": "正式版建议补地方非遗名录、工艺流程访谈与原料来源，不要只写旅游宣传文案。",
+        "story_angle": "藏香、药材、手工艺、村镇经济",
+        "craft_or_practice": "藏香 / 水磨制香",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "nyemo_incense",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.76,
+          29.24
+        ]
+      },
+      "properties": {
+        "id": "lum_sowa_rigpa_lhokha",
+        "name_zh": "藏医药浴 / Sowa Rigpa 节点",
+        "name_en": "Lum medicinal bathing / Sowa Rigpa node",
+        "name_bo": null,
+        "romanization": "Lum / Sowa Rigpa",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "medical_tradition",
+        "categories": [
+          "medical_tradition",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "用于展示藏医药浴与 Sowa Rigpa 知识体系的代表性节点；这里不公开具体配方和可操作疗法。",
+        "details": "将健康知识做成文化介绍，而不是医疗建议；药材、配方、治疗声称需专业审校。",
+        "story_angle": "藏医药、药浴、身体观",
+        "craft_or_practice": "药浴、草药知识、身心疗愈",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "unesco_lum",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.701,
+          31.478
+        ]
+      },
+      "properties": {
+        "id": "guge_tsaparang",
+        "name_zh": "古格王国遗址 / 扎布让",
+        "name_en": "Guge / Tsaparang ruins",
+        "name_bo": "གུ་གེ་",
+        "romanization": "Gu ge",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "阿里地区的重要历史遗址节点，适合连接西部藏地、佛教艺术、贸易路线与遗址保护。",
+        "details": "遗址类点位需要注意文物保护信息；不展示可导致破坏的细部位置或进入方式。",
+        "story_angle": "遗址、壁画、西部藏地",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.804,
+          31.478
+        ]
+      },
+      "properties": {
+        "id": "tholing",
+        "name_zh": "托林寺",
+        "name_en": "Tholing Monastery",
+        "name_bo": "མཐོ་ལྡིང་",
+        "romanization": "Mtho lding",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "archive_print"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "阿里地区重要寺院节点，可与古格遗址、札达土林、西部艺术史关联。",
+        "details": "原型为概览点；壁画、建筑年代与文献关系需后续复核。",
+        "story_angle": "阿里、佛教艺术、西部路线",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3119,
+          31.0672
+        ]
+      },
+      "properties": {
+        "id": "kailash",
+        "name_zh": "冈仁波齐",
+        "name_en": "Mount Kailash / Gang Rinpoche",
+        "name_bo": "གངས་རིན་པོ་ཆེ་",
+        "romanization": "Gangs rin po che",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "跨宗教共享的神山朝圣地景，是西部藏地最重要的圣山节点之一。",
+        "details": "只展示公共概览和伦理提醒；实际转山路线、生态承载与信仰礼仪需要谨慎呈现。",
+        "story_angle": "神山、跨宗教朝圣、西部藏地",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.457,
+          30.706
+        ]
+      },
+      "properties": {
+        "id": "manasarovar",
+        "name_zh": "玛旁雍错",
+        "name_en": "Lake Manasarovar / Mapam Yumtso",
+        "name_bo": "མ་ཕམ་གཡུ་མཚོ་",
+        "romanization": "Ma pham g.yu mtsho",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "冈仁波齐附近的圣湖节点，可用于展示圣山圣湖组合、朝圣路径与生态地景。",
+        "details": "避免把朝圣实践简化成景点打卡，应保留多宗教与多社区视角。",
+        "story_angle": "圣湖、神山组合、朝圣",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.58,
+          31.806
+        ]
+      },
+      "properties": {
+        "id": "dege_parkhang",
+        "name_zh": "德格印经院",
+        "name_en": "Derge Parkhang / Dege Sutra Printing House",
+        "name_bo": "སྡེ་དགེ་པར་ཁང་",
+        "romanization": "Sde dge par khang",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "archive_print",
+        "categories": [
+          "archive_print",
+          "craft_practice",
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区德格的重要文献与木刻印刷节点，适合展示经版、纸张、雕版、印刷与文本流通。",
+        "details": "这是原型中最适合做“物质文化 + 文献流通”的深挖专题之一。",
+        "story_angle": "木刻印经、文献、康区",
+        "craft_or_practice": "木刻印经、经版、手工纸",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "derge_rubin",
+          "derge_official",
+          "bdrc",
+          "wikidata_osm_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.58,
+          31.81
+        ]
+      },
+      "properties": {
+        "id": "dege_town",
+        "name_zh": "德格县城",
+        "name_en": "Derge town",
+        "name_bo": "སྡེ་དགེ་",
+        "romanization": "Sde dge",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "archive_print"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区西部的重要城镇节点，因印经院与文献传统而具有突出的文化地位。",
+        "details": "可作为德格印经、甘孜西部交通、康区历史叙事的入口。",
+        "story_angle": "康区城镇、印经、边地交通",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.137,
+          30.95
+        ]
+      },
+      "properties": {
+        "id": "palpung",
+        "name_zh": "八邦寺",
+        "name_en": "Palpung Monastery",
+        "name_bo": "དཔལ་སྤུངས་",
+        "romanization": "Dpal spungs",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区重要寺院节点，可连接绘画、印刷、僧院教育与噶举传统。",
+        "details": "正式版应核对寺院史、传承人物与艺术工作坊资料。",
+        "story_angle": "康区寺院、艺术、噶举传统",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.836,
+          31.315
+        ]
+      },
+      "properties": {
+        "id": "dzongsar",
+        "name_zh": "宗萨寺",
+        "name_en": "Dzongsar Monastery",
+        "name_bo": "རྫོང་སར་",
+        "romanization": "Rdzong sar",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "education_monastic"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区重要寺院与修学传统节点。",
+        "details": "适合和德格、八邦、白玉等点位组成康区寺院教育网络。",
+        "story_angle": "康区修学、寺院网络",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.826,
+          31.21
+        ]
+      },
+      "properties": {
+        "id": "pelyul",
+        "name_zh": "白玉寺",
+        "name_en": "Palyul / Baiyu Monastery",
+        "name_bo": "དཔལ་ཡུལ་",
+        "romanization": "Dpal yul",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "education_monastic"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区宁玛传统的重要寺院节点之一。",
+        "details": "原型坐标为县域级近似，正式发布前需逐点核对。",
+        "story_angle": "宁玛派、康区、寺院网络",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.172,
+          31.143
+        ]
+      },
+      "properties": {
+        "id": "chamdo_jampaling",
+        "name_zh": "昌都强巴林寺",
+        "name_en": "Chamdo Jampaling Monastery",
+        "name_bo": "ཆབ་མདོ་བྱམས་པ་གླིང་",
+        "romanization": "Chab mdo Byams pa gling",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "昌都城市附近的重要寺院节点，适合展示康区东部交通与宗教中心。",
+        "details": "后续可加入茶马古道、江河交汇与城镇网络。",
+        "story_angle": "康区东部、城市寺院、交通节点",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.179,
+          31.137
+        ]
+      },
+      "properties": {
+        "id": "chamdo_city",
+        "name_zh": "昌都",
+        "name_en": "Chamdo",
+        "name_bo": "ཆབ་མདོ་",
+        "romanization": "Chab mdo",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区东部重要城镇节点，可作为横断山地、三江流域与区域交通的入口。",
+        "details": "适合做区域交通层，不应只以行政边界理解。",
+        "story_angle": "康区城镇、交通、三江流域",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.269,
+          29.996
+        ]
+      },
+      "properties": {
+        "id": "lithang",
+        "name_zh": "理塘",
+        "name_en": "Lithang",
+        "name_bo": "ལི་ཐང་",
+        "romanization": "Li thang",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区高海拔草原城镇节点，适合连接牧业、节庆、寺院与现代视觉文化。",
+        "details": "可做“草原城镇民族志”专题，但人物与社区资料需谨慎授权。",
+        "story_angle": "草原城镇、牧业、康区",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.509,
+          30.323
+        ]
+      },
+      "properties": {
+        "id": "tagong",
+        "name_zh": "塔公 / 拉岗",
+        "name_en": "Tagong / Lhagang",
+        "name_bo": "ལྷ་སྒང་",
+        "romanization": "Lha sgang",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "pilgrimage",
+        "categories": [
+          "religious_site",
+          "pilgrimage",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "康区草原上的寺院与朝圣节点，可与雅拉雪山、草原牧业和旅游化联系起来。",
+        "details": "正式版可加牧业季节、地方节庆与草原地景的图层。",
+        "story_angle": "草原寺院、神山视域、康区朝圣",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.89,
+          32.15
+        ]
+      },
+      "properties": {
+        "id": "larung_gar",
+        "name_zh": "喇荣五明佛学院区域",
+        "name_en": "Larung Gar area",
+        "name_bo": "བླ་རུང་སྒར་",
+        "romanization": "Bla rung sgar",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "education_monastic",
+        "categories": [
+          "religious_site",
+          "education_monastic"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "色达附近的当代佛学院区域，适合讨论现代宗教教育、规模化修学与影像传播。",
+        "details": "该类点位具有现实敏感性；原型使用区域级近似坐标，不展示细部。",
+        "story_angle": "当代佛学院、修学、影像传播",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.08,
+          31.4
+        ]
+      },
+      "properties": {
+        "id": "yachen_gar",
+        "name_zh": "亚青寺区域",
+        "name_en": "Yachen Gar area",
+        "name_bo": "ཡ་ཆེན་སྒར་",
+        "romanization": "Ya chen sgar",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "education_monastic",
+        "categories": [
+          "religious_site",
+          "education_monastic"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "白玉县一带的当代修学区域节点，尤其适合提醒项目如何处理敏感地点。",
+        "details": "不建议公开住宿、内部道路、具体社区空间等细部信息。",
+        "story_angle": "当代修学、敏感地理、康区",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.008,
+          33.005
+        ]
+      },
+      "properties": {
+        "id": "jyekundo",
+        "name_zh": "结古 / 玉树",
+        "name_en": "Jyekundo / Yushu",
+        "name_bo": "སྐྱེ་དགུ་མདོ་",
+        "romanization": "Skye dgu mdo",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "青藏高原东北缘的重要藏族城镇节点，可连接格萨尔叙事、市场、灾后重建与康巴文化。",
+        "details": "正式版应避免把区域文化单一化，应分开标注玉树、囊谦、果洛等叙事。",
+        "story_angle": "康巴城镇、格萨尔、市场",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.105,
+          30.005
+        ]
+      },
+      "properties": {
+        "id": "batang",
+        "name_zh": "巴塘",
+        "name_en": "Batang",
+        "name_bo": "འབའ་ཐང་",
+        "romanization": "'Ba' thang",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "川藏线上的康区城镇节点，可用于展示歌舞、贸易路线和横断山地交通。",
+        "details": "地方歌舞与节庆资料需以本地来源核对，不宜泛化为“康巴文化”。",
+        "story_angle": "歌舞、交通、康区城镇",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.706,
+          27.826
+        ]
+      },
+      "properties": {
+        "id": "gyalthang",
+        "name_zh": "建塘 / 香格里拉",
+        "name_en": "Gyalthang / Shangri-La",
+        "name_bo": "རྒྱལ་ཐང་",
+        "romanization": "Rgyal thang",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "云南西北部藏文化区域节点，适合呈现康区南缘、纳西/藏/彝等多民族交汇。",
+        "details": "这里尤其需要多族群视角，不应只做单一藏文化叙述。",
+        "story_angle": "康区南缘、多民族交汇、旅游命名",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.703,
+          27.86
+        ]
+      },
+      "properties": {
+        "id": "sumtseling",
+        "name_zh": "噶丹松赞林寺",
+        "name_en": "Ganden Sumtseling Monastery",
+        "name_bo": "དགའ་ལྡན་སུམ་རྩེ་གླིང་",
+        "romanization": "Dga' ldan sum rtsen gling",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "滇西北重要寺院节点，适合连接康区南缘、格鲁派寺院与旅游化景观。",
+        "details": "图片与建筑介绍需注意商业景区资料和学术资料的差异。",
+        "story_angle": "康区南缘、寺院、旅游景观",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.506,
+          35.193
+        ]
+      },
+      "properties": {
+        "id": "labrang",
+        "name_zh": "拉卜楞寺",
+        "name_en": "Labrang Monastery",
+        "name_bo": "བླ་བྲང་",
+        "romanization": "Bla brang",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "education_monastic",
+        "categories": [
+          "religious_site",
+          "education_monastic",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "安多地区重要寺院与修学中心，也是甘南藏区的关键文化节点。",
+        "details": "后续可做学院体系、转经廊、甘南草原与市场街区专题。",
+        "story_angle": "安多、寺院教育、转经",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.566,
+          36.49
+        ]
+      },
+      "properties": {
+        "id": "kumbum",
+        "name_zh": "塔尔寺 / 贡本",
+        "name_en": "Kumbum Monastery / Ta'er Si",
+        "name_bo": "སྐུ་འབུམ་",
+        "romanization": "Sku 'bum",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "青海西宁附近的重要寺院节点，可连接宗教艺术、酥油花、安多与汉藏边缘互动。",
+        "details": "正式版可将“酥油花/艺术”做成独立手工艺条目。",
+        "story_angle": "安多寺院、艺术、边缘互动",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.02,
+          35.517
+        ]
+      },
+      "properties": {
+        "id": "rongwo_monastery",
+        "name_zh": "隆务寺",
+        "name_en": "Rongwo Monastery",
+        "name_bo": "རོང་བོ་དགོན་",
+        "romanization": "Rong bo dgon",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "热贡地区的重要寺院节点，和唐卡、壁画、堆绣、雕塑等艺术传统密切相关。",
+        "details": "可与“热贡艺术”非遗点组成艺术河谷专题。",
+        "story_angle": "热贡、寺院艺术、安多",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "unesco_regong",
+          "thl_places",
+          "wikidata_osm_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.018,
+          35.515
+        ]
+      },
+      "properties": {
+        "id": "regong_arts",
+        "name_zh": "热贡艺术",
+        "name_en": "Regong arts",
+        "name_bo": null,
+        "romanization": "Rebgong / Regong",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "craft_practice",
+        "categories": [
+          "craft_practice",
+          "intangible_heritage",
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "热贡艺术涵盖唐卡、壁画、堆绣、雕塑等藏传佛教艺术实践，集中于青海同仁一带的河谷与村镇。",
+        "details": "正式版可做工艺流程、师徒传承、颜料、寺院订单与市场化的民族志专题。",
+        "story_angle": "唐卡、壁画、堆绣、泥塑、师徒传承",
+        "craft_or_practice": "唐卡、壁画、堆绣、雕塑",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "unesco_regong",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.08,
+          35.515
+        ]
+      },
+      "properties": {
+        "id": "wutun_villages",
+        "name_zh": "吾屯村艺术聚落",
+        "name_en": "Wutun art villages",
+        "name_bo": null,
+        "romanization": "Wutun",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "craft_practice",
+        "categories": [
+          "craft_practice",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "同仁周边的艺术村落节点，适合展示热贡艺术的村镇生产与工作坊网络。",
+        "details": "不要公开个人工坊、住址或未授权作品图片；只展示公共层级信息。",
+        "story_angle": "艺术村、工作坊、热贡",
+        "craft_or_practice": "唐卡与宗教美术工作坊",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "unesco_regong",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.62,
+          34.5
+        ]
+      },
+      "properties": {
+        "id": "ragya",
+        "name_zh": "拉加寺",
+        "name_en": "Ragya Monastery",
+        "name_bo": "རྭ་རྒྱ་",
+        "romanization": "Rwa rgya",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "黄河上游区域的重要寺院节点，可连接安多、果洛、河流地景与牧业社会。",
+        "details": "坐标为区域近似，正式版需核对寺院位置与藏文转写。",
+        "story_angle": "黄河上游、安多、寺院",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.236,
+          32.904
+        ]
+      },
+      "properties": {
+        "id": "kirti_ngawa",
+        "name_zh": "格尔登寺 / 阿坝",
+        "name_en": "Kirti Monastery / Ngawa",
+        "name_bo": "ཀིརྟི་",
+        "romanization": "Kirti",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "阿坝地区的重要寺院与城镇节点。",
+        "details": "该地区现实语境敏感；原型使用公共层级信息，不展示细部。",
+        "story_angle": "安多南缘、寺院、城镇",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.64,
+          34.09
+        ]
+      },
+      "properties": {
+        "id": "taktsang_lhamo",
+        "name_zh": "郎木寺 / 达仓郎木",
+        "name_en": "Taktsang Lhamo / Langmusi",
+        "name_bo": "སྟག་ཚང་ལྷ་མོ་",
+        "romanization": "Stag tshang lha mo",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "甘肃与四川交界附近的寺院与城镇节点，适合展示安多南缘的跨省文化地景。",
+        "details": "可加入游客、僧团、地方商业、边界行政的多视角观察。",
+        "story_angle": "边界城镇、寺院、安多南缘",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.46,
+          34.8
+        ]
+      },
+      "properties": {
+        "id": "amne_machen",
+        "name_zh": "阿尼玛卿",
+        "name_en": "Amnye Machen",
+        "name_bo": "ཨ་མྱེས་རྨ་ཆེན་",
+        "romanization": "A myes rma chen",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "sacred_landscape",
+          "pilgrimage",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "果洛地区重要神山地景，与牧业、朝圣、地方叙事和格萨尔相关想象交织。",
+        "details": "原型只给区域级位置；转山路线和牧场细节不公开。",
+        "story_angle": "神山、牧业、格萨尔叙事",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.9,
+          34.5
+        ]
+      },
+      "properties": {
+        "id": "gesar_yushu_golog",
+        "name_zh": "格萨尔史诗叙事区域节点",
+        "name_en": "Gesar epic storytelling region node",
+        "name_bo": null,
+        "romanization": "Gesar",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "primary_category": "intangible_heritage",
+        "categories": [
+          "intangible_heritage",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "用于标示格萨尔史诗在藏、蒙古、土等群体中的口传叙事传统；此点为区域化入口，不代表单一地点。",
+        "details": "正式版可改为多个口传人、节庆、文本、绘画与地景节点，但需避免把活态传统一点化。",
+        "story_angle": "口传史诗、游牧、英雄叙事",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "unesco_gesar",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.133,
+          29.652
+        ]
+      },
+      "properties": {
+        "id": "tibetan_opera_lhasa",
+        "name_zh": "藏戏 / 阿吉拉姆代表节点",
+        "name_en": "Tibetan opera / Ache Lhamo node",
+        "name_bo": null,
+        "romanization": "A lce lha mo",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "primary_category": "intangible_heritage",
+        "categories": [
+          "intangible_heritage",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "藏戏融合歌舞、说唱、面具、宗教仪式与民间表演；原型以拉萨为入口节点之一。",
+        "details": "藏戏并不只属于一个城市，正式版应按剧种、流派、节庆与传承人分层呈现。",
+        "story_angle": "面具、歌舞、节庆、表演",
+        "craft_or_practice": "面具、戏服、歌舞表演",
+        "coordinate_confidence": "approximate",
+        "content_confidence": "high",
+        "sensitivity": "public",
+        "source_ids": [
+          "unesco_tibetan_opera",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.584,
+          34.152
+        ]
+      },
+      "properties": {
+        "id": "leh",
+        "name_zh": "列城",
+        "name_en": "Leh",
+        "name_bo": "གླེ་",
+        "romanization": "Gle",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "religious_site"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉达克地区重要城镇节点，可连接西喜马拉雅、贸易路线、寺院和藏传佛教艺术。",
+        "details": "作为“藏传文化圈”外延节点，需清楚标注其区域身份，而不是把它简单归入西藏。",
+        "story_angle": "拉达克、贸易、喜马拉雅",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.706,
+          34.165
+        ]
+      },
+      "properties": {
+        "id": "hemis",
+        "name_zh": "赫米斯寺",
+        "name_en": "Hemis Monastery",
+        "name_bo": null,
+        "romanization": "Hemis",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "intangible_heritage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉达克重要寺院节点，适合展示节庆、面具舞与西喜马拉雅寺院网络。",
+        "details": "后续可加入节庆时间、面具舞与旅游化的观察维度。",
+        "story_angle": "拉达克寺院、面具舞、节庆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.169,
+          34.224
+        ]
+      },
+      "properties": {
+        "id": "alchi",
+        "name_zh": "阿尔奇寺",
+        "name_en": "Alchi Monastery",
+        "name_bo": null,
+        "romanization": "Alchi",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉达克重要艺术史节点，壁画和建筑适合做图像志专题。",
+        "details": "壁画图片与内部空间需严格处理授权与开放规则。",
+        "story_angle": "西喜马拉雅艺术、壁画、寺院",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.774,
+          34.281
+        ]
+      },
+      "properties": {
+        "id": "lamayuru",
+        "name_zh": "拉玛裕寺",
+        "name_en": "Lamayuru Monastery",
+        "name_bo": null,
+        "romanization": "Lamayuru",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "拉达克山地寺院节点，可连接月面地貌、道路与寺院空间。",
+        "details": "适合作为西喜马拉雅地景审美与宗教空间结合的案例。",
+        "story_angle": "山地寺院、拉达克、地景",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.98,
+          33.48
+        ]
+      },
+      "properties": {
+        "id": "karsha_zanskar",
+        "name_zh": "赞斯卡卡尔沙寺",
+        "name_en": "Karsha Monastery / Zanskar",
+        "name_bo": null,
+        "romanization": "Karsha",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "赞斯卡河谷的重要寺院节点，适合展示西喜马拉雅偏远河谷与寺院生活。",
+        "details": "坐标与内容为初稿，正式版应补充拉达克/赞斯卡本地资料。",
+        "story_angle": "赞斯卡、河谷寺院、西喜马拉雅",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.011,
+          32.298
+        ]
+      },
+      "properties": {
+        "id": "key_monastery",
+        "name_zh": "基寺 / 斯皮提",
+        "name_en": "Key Monastery / Spiti",
+        "name_bo": null,
+        "romanization": "Key / Kye",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "斯皮提河谷著名寺院节点，位于印度喜马偕尔邦的藏传佛教文化区。",
+        "details": "作为藏传文化圈外延节点，应突出其本地身份与跨喜马拉雅联系。",
+        "story_angle": "斯皮提、河谷寺院、跨喜马拉雅",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.383,
+          32.093
+        ]
+      },
+      "properties": {
+        "id": "tabo",
+        "name_zh": "塔波寺",
+        "name_en": "Tabo Monastery",
+        "name_bo": null,
+        "romanization": "Tabo",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "craft_practice"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "斯皮提河谷重要寺院与艺术史节点，适合连接西喜马拉雅壁画、泥塑和文献。",
+        "details": "艺术史细节需要学术来源支持；原型只做入口。",
+        "story_angle": "斯皮提、壁画、艺术史",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.859,
+          27.585
+        ]
+      },
+      "properties": {
+        "id": "tawang",
+        "name_zh": "达旺寺",
+        "name_en": "Tawang Monastery",
+        "name_bo": "རྟ་དབང་",
+        "romanization": "Rta dbang",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "东喜马拉雅重要藏传佛教寺院节点，连接门隅、阿鲁纳恰尔与喜马拉雅文化通道。",
+        "details": "该区域有复杂边界与地方身份，应使用谨慎、非单一化表述。",
+        "story_angle": "东喜马拉雅、门隅、边界地景",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.961,
+          29.183
+        ]
+      },
+      "properties": {
+        "id": "lo_manthang",
+        "name_zh": "洛曼塘 / 木斯塘",
+        "name_en": "Lo Manthang / Mustang",
+        "name_bo": null,
+        "romanization": "Lo Manthang",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "settlement",
+        "categories": [
+          "settlement",
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "尼泊尔上木斯塘的城镇与王城地景节点，和藏文化、贸易路线、洞窟与壁画密切相关。",
+        "details": "作为跨国文化区节点，应标注其尼泊尔本地历史与身份。",
+        "story_angle": "木斯塘、王城、贸易路线",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.883,
+          29.22
+        ]
+      },
+      "properties": {
+        "id": "shey_gompa_dolpo",
+        "name_zh": "多尔波谢寺区域",
+        "name_en": "Shey Gompa / Dolpo area",
+        "name_bo": null,
+        "romanization": "Shey / Dolpo",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "sacred_landscape",
+        "categories": [
+          "religious_site",
+          "sacred_landscape",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "尼泊尔多尔波高地的宗教与牧业地景节点，适合展示跨喜马拉雅牧业、苯教/佛教和山地朝圣。",
+        "details": "原型只用区域级坐标；不公开社区内部地点与敏感路线。",
+        "story_angle": "多尔波、牧业、山地宗教",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "approximate_only",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.763,
+          27.836
+        ]
+      },
+      "properties": {
+        "id": "tengboche",
+        "name_zh": "腾波切寺",
+        "name_en": "Tengboche Monastery",
+        "name_bo": null,
+        "romanization": "Tengboche",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "昆布地区夏尔巴佛教的重要寺院节点，也与现代登山路线和旅游经济交织。",
+        "details": "应避免把夏尔巴文化简单化为“登山服务”，需加入地方宗教与社区视角。",
+        "story_angle": "夏尔巴、昆布、寺院与登山旅游",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.362,
+          27.721
+        ]
+      },
+      "properties": {
+        "id": "boudhanath",
+        "name_zh": "博达哈大佛塔",
+        "name_en": "Boudhanath Stupa",
+        "name_bo": null,
+        "romanization": "Boudha",
+        "region_key": "diaspora_crossroads",
+        "region_label": "Diaspora & Crossroads / 流动与交汇节点",
+        "primary_category": "pilgrimage",
+        "categories": [
+          "pilgrimage",
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "加德满都重要佛教朝圣与藏人流动社区节点，是喜马拉雅佛教、移民、商业和修行网络的交汇点。",
+        "details": "作为流动节点而非传统藏区核心来呈现，可展示迁徙、社区、寺院和商业街区。",
+        "story_angle": "流动社区、佛塔、加德满都",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.56,
+          27.289
+        ]
+      },
+      "properties": {
+        "id": "rumtek",
+        "name_zh": "隆德寺 / 锡金 Rumtek",
+        "name_en": "Rumtek Monastery",
+        "name_bo": null,
+        "romanization": "Rumtek",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "锡金的重要藏传佛教寺院节点，适合连接喜马拉雅南坡、迁徙与宗派网络。",
+        "details": "应标注其锡金本地历史和南亚政治文化语境。",
+        "story_angle": "锡金、迁徙、噶举网络",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.252,
+          27.306
+        ]
+      },
+      "properties": {
+        "id": "pemayangtse",
+        "name_zh": "佩玛央孜寺",
+        "name_en": "Pemayangtse Monastery",
+        "name_bo": null,
+        "romanization": "Pemayangtse",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "锡金西部重要寺院节点，适合作为不丹—锡金—喜马拉雅南坡文化圈的一环。",
+        "details": "原型为初稿，需补充锡金本地资料与命名规范。",
+        "story_angle": "锡金寺院、南坡文化圈",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.363,
+          27.491
+        ]
+      },
+      "properties": {
+        "id": "paro_taktsang",
+        "name_zh": "帕罗虎穴寺",
+        "name_en": "Paro Taktsang",
+        "name_bo": "སྤ་གྲོ་སྟག་ཚང་",
+        "romanization": "Spa gro stag tshang",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "pilgrimage",
+        "categories": [
+          "religious_site",
+          "pilgrimage",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "不丹最知名的悬崖寺院与朝圣地景之一，常与莲师传说相连。",
+        "details": "作为不丹节点时，应遵守本地文化表述和影像授权规则。",
+        "story_angle": "不丹、悬崖寺院、莲师传说",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.876,
+          27.591
+        ]
+      },
+      "properties": {
+        "id": "punakha_dzong",
+        "name_zh": "普那卡宗",
+        "name_en": "Punakha Dzong",
+        "name_bo": "སྤུ་ན་ཁ་རྫོང་",
+        "romanization": "Spu na kha rdzong",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "settlement",
+        "categories": [
+          "religious_site",
+          "settlement"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "不丹重要宗堡建筑与河谷节点，体现宗教、行政与建筑景观的结合。",
+        "details": "可做“宗堡建筑与河谷国家形成”的故事线。",
+        "story_angle": "不丹宗堡、河谷、建筑",
+        "craft_or_practice": null,
+        "coordinate_confidence": "verified",
+        "content_confidence": "medium",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.754,
+          27.564
+        ]
+      },
+      "properties": {
+        "id": "jambay_lhakhang",
+        "name_zh": "布姆唐强巴拉康",
+        "name_en": "Jambay Lhakhang / Bumthang",
+        "name_bo": "བྱམས་པའི་ལྷ་ཁང་",
+        "romanization": "Byams pa'i lha khang",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "religious_site",
+        "categories": [
+          "religious_site",
+          "pilgrimage"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "不丹布姆唐地区的重要寺院节点，适合连接地方节庆、莲师传说与河谷聚落。",
+        "details": "原型为概览点，正式版需补充不丹本地来源。",
+        "story_angle": "布姆唐、寺院、节庆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.563,
+          27.002
+        ]
+      },
+      "properties": {
+        "id": "gom_kora",
+        "name_zh": "贡果拉 / 东不丹节点",
+        "name_en": "Gom Kora / eastern Bhutan node",
+        "name_bo": null,
+        "romanization": "Gom Kora",
+        "region_key": "bhutan_sikkim",
+        "region_label": "Bhutan–Sikkim / 不丹—锡金文化圈",
+        "primary_category": "pilgrimage",
+        "categories": [
+          "religious_site",
+          "pilgrimage",
+          "sacred_landscape"
+        ],
+        "tradition": [],
+        "era": null,
+        "summary_short": "东不丹的朝圣与地方节庆节点，适合扩展不丹东部藏传文化地景。",
+        "details": "坐标与介绍为初稿，需补充本地来源与节庆资料。",
+        "story_angle": "东不丹、朝圣、节庆",
+        "craft_or_practice": null,
+        "coordinate_confidence": "approximate",
+        "content_confidence": "low",
+        "sensitivity": "public",
+        "source_ids": [
+          "thl_places",
+          "wikidata_osm_seed",
+          "editorial_seed"
+        ],
+        "review_status": "seed_needs_human_review",
+        "last_reviewed": "2026-05-11"
+      }
+    }
+  ]
+}

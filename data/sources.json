@@ -1,0 +1,74 @@
+{
+  "thl_places": {
+    "title": "Tibetan and Himalayan Library: Places",
+    "url": "https://thlib.org/places/",
+    "type": "reference_database",
+    "note_zh": "用于建立藏地及喜马拉雅地名、寺院、文化区域的初始参照。"
+  },
+  "bdrc": {
+    "title": "Buddhist Digital Resource Center / BUDA",
+    "url": "https://www.bdrc.io/",
+    "type": "archive",
+    "note_zh": "用于后续核对寺院、人物、文本与宗派脉络。"
+  },
+  "wikidata_osm_seed": {
+    "title": "Wikidata / OpenStreetMap seed coordinates",
+    "url": "https://www.wikidata.org/",
+    "type": "open_data_seed",
+    "note_zh": "本原型的部分坐标以开放资料与常见地图点位作初稿；发布前需逐笔复核。"
+  },
+  "unesco_tibetan_opera": {
+    "title": "UNESCO ICH: Tibetan opera",
+    "url": "https://ich.unesco.org/en/RL/tibetan-opera-00208",
+    "type": "ich_reference",
+    "note_zh": "用于藏戏 / 阿吉拉姆相关非遗标签。"
+  },
+  "unesco_gesar": {
+    "title": "UNESCO ICH: Gesar epic tradition",
+    "url": "https://ich.unesco.org/en/RL/gesar-epic-tradition-00204",
+    "type": "ich_reference",
+    "note_zh": "用于格萨尔史诗与口传传统相关标签。"
+  },
+  "unesco_regong": {
+    "title": "UNESCO ICH: Regong arts",
+    "url": "https://ich.unesco.org/en/RL/regong-arts-00207",
+    "type": "ich_reference",
+    "note_zh": "用于热贡艺术、唐卡、壁画、堆绣与泥塑等标签。"
+  },
+  "unesco_lum": {
+    "title": "UNESCO ICH: Lum medicinal bathing of Sowa Rigpa",
+    "url": "https://ich.unesco.org/en/RL/lum-medicinal-bathing-of-sowa-rigpa-knowledge-and-practices-concerning-life-health-and-illness-prevention-and-treatment-among-the-tibetan-people-in-china-01386",
+    "type": "ich_reference",
+    "note_zh": "用于藏医药浴与 Sowa Rigpa 知识体系相关标签。"
+  },
+  "derge_rubin": {
+    "title": "Rubin Museum: Derge Parkhang, a living tradition of Tibetan woodblock printing",
+    "url": "https://rubinmuseum.org/inside-the-derge-parkhang-a-living-tradition-of-tibetan-woodblock-printing/",
+    "type": "museum_reference",
+    "note_zh": "用于德格印经院与木刻印刷传统。"
+  },
+  "derge_official": {
+    "title": "Official site: Dege Sutra-Printing House",
+    "url": "https://www.degeparkhang.org/en/",
+    "type": "institution_site",
+    "note_zh": "德格印经院机构网站；后续可核对开放信息。"
+  },
+  "nyemo_incense": {
+    "title": "Nyemo / Tunba Tibetan incense references",
+    "url": "https://eng.tibet.cn/eng/index/top/202312/t20231212_7536512.html",
+    "type": "craft_reference",
+    "note_zh": "用于尼木吞巴藏香的初始说明；发布前建议补充地方志或官方非遗条目。"
+  },
+  "care_principles": {
+    "title": "CARE Principles for Indigenous Data Governance",
+    "url": "https://www.gida-global.org/careprinciples",
+    "type": "ethics_framework",
+    "note_zh": "用于资料治理与敏感知识处理原则。"
+  },
+  "editorial_seed": {
+    "title": "Editorial seed note",
+    "url": "",
+    "type": "internal_note",
+    "note_zh": "示范性初稿。该点位需要人工复核藏文名、坐标、历史细节与授权素材。"
+  }
+}

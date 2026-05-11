@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tibet Ethnography Map｜藏文化区域民族志地图原型</title>
+  <meta name="description" content="A static, interactive MapLibre prototype for exploring Tibetan cultural regions, ethnographic places, craft practices, sacred landscapes and sources." />
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://basemaps.cartocdn.com" />
+  <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+  <link href="./src/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="map" aria-label="藏文化区域民族志地图"></div>
+
+  <section class="control-panel" aria-label="地图筛选控制">
+    <div class="brand">
+      <div class="brand-mark">༄</div>
+      <div>
+        <p class="eyebrow">Tibet Ethnography</p>
+        <h1>藏文化区域民族志地图</h1>
+      </div>
+    </div>
+
+    <p class="scope-note">
+      原型范围按“藏文化区域”组织：卫藏、阿里、康区、安多、跨喜马拉雅、不丹—锡金与流动交汇节点。
+    </p>
+
+    <label class="field-label" for="search-input">搜索地点、工艺、叙事</label>
+    <div class="search-row">
+      <input id="search-input" type="search" placeholder="例如：藏香、德格、热贡、拉萨、Kailash" autocomplete="off" />
+      <button id="clear-search" title="清除搜索" aria-label="清除搜索">×</button>
+    </div>
+
+    <label class="field-label" for="region-select">区域</label>
+    <select id="region-select"></select>
+
+    <div class="section-heading">
+      <span>图层</span>
+      <button id="toggle-all" class="ghost-button">全选 / 取消</button>
+    </div>
+    <div id="category-list" class="category-list"></div>
+
+    <label class="field-label" for="story-select">故事线</label>
+    <select id="story-select">
+      <option value="">选择一条叙事路线</option>
+    </select>
+
+    <div class="button-grid">
+      <button id="fit-visible">定位当前结果</button>
+      <a class="button-link" href="./data/places.geojson" download>下载 GeoJSON</a>
+    </div>
+
+    <div class="stats">
+      <div><strong id="visible-count">0</strong><span>当前点位</span></div>
+      <div><strong id="route-count">0</strong><span>叙事线</span></div>
+      <div><strong id="total-count">0</strong><span>总点位</span></div>
+    </div>
+
+    <div class="results-header">
+      <span>当前结果</span>
+      <small id="results-note">点击卡片查看详情</small>
+    </div>
+    <div id="results-list" class="results-list"></div>
+  </section>
+
+  <aside id="sidebar" class="sidebar" aria-live="polite">
+    <button id="close-sidebar" class="close-sidebar" aria-label="关闭详情">×</button>
+    <div id="sidebar-content" class="sidebar-content">
+      <p class="eyebrow">欢迎</p>
+      <h2>点击地图上的点位或故事线</h2>
+      <p>
+        这个原型强调“资料可追溯”：每个点位都带有来源、坐标可信度、内容可信度与敏感度标签。
+      </p>
+      <p class="hint">
+        公开发布前，请逐笔核对藏文名、经纬度、历史叙述、图片授权与社区敏感性。
+      </p>
+    </div>
+  </aside>
+
+  <div id="status-bar" class="status-bar">正在加载民族志资料…</div>
+  <div id="error-panel" class="error-panel" hidden></div>
+
+  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "categories": {
+    "religious_site": {
+      "label_zh": "宗教建筑 / 寺院",
+      "description": "寺院、佛塔、宗教建筑群或修学中心"
+    },
+    "pilgrimage": {
+      "label_zh": "朝圣 / 转经",
+      "description": "朝圣目的地、转经路线、节庆性行走空间"
+    },
+    "craft_practice": {
+      "label_zh": "手工艺 / 物质文化",
+      "description": "藏香、唐卡、木刻印经、金属、纸张、织物等"
+    },
+    "intangible_heritage": {
+      "label_zh": "非遗 / 口传表演",
+      "description": "口传史诗、藏戏、地方艺术、仪式知识等"
+    },
+    "sacred_landscape": {
+      "label_zh": "神山圣湖 / 地景",
+      "description": "神山、圣湖、河谷、具有宗教或地方叙事意义的地景"
+    },
+    "settlement": {
+      "label_zh": "城镇 / 历史聚落",
+      "description": "历史城市、边贸聚落、区域文化中心"
+    },
+    "archive_print": {
+      "label_zh": "文献 / 印经",
+      "description": "经版、藏文文献、印刷与档案传统"
+    },
+    "medical_tradition": {
+      "label_zh": "藏医药 / 疗愈",
+      "description": "Sowa Rigpa、药浴、药材、身心疗愈知识"
+    },
+    "education_monastic": {
+      "label_zh": "寺院教育 / 修学中心",
+      "description": "学院、佛学院、辩经、僧团学习与传承网络"
+    }
+  },
+  "regions": {
+    "u_tsang": "Ü-Tsang / 卫藏",
+    "ngari": "Ngari / 阿里与西部藏地",
+    "kham": "Kham / 康区",
+    "amdo": "Amdo / 安多",
+    "himalayan": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+    "bhutan_sikkim": "Bhutan–Sikkim / 不丹—锡金文化圈",
+    "diaspora_crossroads": "Diaspora & Crossroads / 流动与交汇节点"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Tibet Ethnography Map - story routes",
+    "status": "prototype_schematic_routes",
+    "warning_zh": "路线为叙事性示意，不代表精确导航、朝圣路线或官方路线。"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.1305,
+            29.6512
+          ],
+          [
+            91.1318,
+            29.653
+          ],
+          [
+            91.1348,
+            29.653
+          ],
+          [
+            91.1352,
+            29.6511
+          ],
+          [
+            91.132,
+            29.6507
+          ],
+          [
+            91.1305,
+            29.6512
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_barkhor_schematic",
+        "name_zh": "八廓转经空间示意",
+        "name_en": "Barkhor kora schematic",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "categories": [
+          "pilgrimage",
+          "settlement"
+        ],
+        "summary_short": "围绕大昭寺的城市转经空间示意线；不是导航路线。",
+        "details": "用于页面演示“点位之外的民族志路线”。正式版应依据授权地图、实地观察或公开资料重绘。",
+        "source_ids": [
+          "thl_places",
+          "editorial_seed"
+        ],
+        "sensitivity": "public"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.768,
+            29.236
+          ],
+          [
+            91.769,
+            29.144
+          ],
+          [
+            91.505,
+            29.321
+          ],
+          [
+            91.41,
+            29.17
+          ],
+          [
+            91.132,
+            29.652
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_yarlung_memory",
+        "name_zh": "雅砻河谷与吐蕃记忆线",
+        "name_en": "Yarlung valley memory route",
+        "region_key": "u_tsang",
+        "region_label": "Ü-Tsang / 卫藏",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "sacred_landscape"
+        ],
+        "summary_short": "从泽当、雍布拉康、桑耶到拉萨的叙事线，帮助用户理解河谷、王权传说与佛教传播的关系。",
+        "details": "路线为叙事性串联，不代表历史道路的精确轨迹。",
+        "source_ids": [
+          "thl_places",
+          "bdrc",
+          "editorial_seed"
+        ],
+        "sensitivity": "public"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.3119,
+            31.0672
+          ],
+          [
+            81.42,
+            31.06
+          ],
+          [
+            81.44,
+            30.98
+          ],
+          [
+            81.36,
+            30.93
+          ],
+          [
+            81.25,
+            30.97
+          ],
+          [
+            81.24,
+            31.05
+          ],
+          [
+            81.3119,
+            31.0672
+          ],
+          [
+            81.457,
+            30.706
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_kailash_manasarovar",
+        "name_zh": "冈仁波齐—玛旁雍错朝圣地景示意",
+        "name_en": "Kailash–Manasarovar pilgrimage landscape schematic",
+        "region_key": "ngari",
+        "region_label": "Ngari / 阿里与西部藏地",
+        "categories": [
+          "pilgrimage",
+          "sacred_landscape"
+        ],
+        "summary_short": "用来呈现西部藏地的神山圣湖组合；路线为伦理友好的粗略示意。",
+        "details": "不提供精确徒步导航，不鼓励将神山圣湖简化为打卡线路。",
+        "source_ids": [
+          "thl_places",
+          "editorial_seed"
+        ],
+        "sensitivity": "approximate_only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            97.179,
+            31.137
+          ],
+          [
+            98.58,
+            31.806
+          ],
+          [
+            98.836,
+            31.315
+          ],
+          [
+            99.137,
+            30.95
+          ],
+          [
+            100.269,
+            29.996
+          ],
+          [
+            99.706,
+            27.826
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_kham_print_monastic",
+        "name_zh": "康区印经与寺院网络线",
+        "name_en": "Kham print and monastery network route",
+        "region_key": "kham",
+        "region_label": "Kham / 康区",
+        "categories": [
+          "archive_print",
+          "religious_site",
+          "craft_practice"
+        ],
+        "summary_short": "串联昌都、德格、宗萨、八邦、理塘与建塘，展示康区寺院、印经与交通网络。",
+        "details": "路线是专题阅读路径，不代表历史道路或旅行建议。",
+        "source_ids": [
+          "derge_rubin",
+          "derge_official",
+          "thl_places",
+          "editorial_seed"
+        ],
+        "sensitivity": "public"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.02,
+            35.517
+          ],
+          [
+            102.08,
+            35.515
+          ],
+          [
+            102.018,
+            35.515
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_regong_arts",
+        "name_zh": "热贡艺术河谷线",
+        "name_en": "Regong arts corridor",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "categories": [
+          "craft_practice",
+          "intangible_heritage"
+        ],
+        "summary_short": "以隆务寺、同仁与艺术村镇为入口，展示热贡艺术的寺院—村落—工坊关系。",
+        "details": "正式版可加入师徒传承、颜料、订单、旅游市场与作品授权。",
+        "source_ids": [
+          "unesco_regong",
+          "editorial_seed"
+        ],
+        "sensitivity": "approximate_only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.506,
+            35.193
+          ],
+          [
+            102.64,
+            34.09
+          ],
+          [
+            102.236,
+            32.904
+          ],
+          [
+            100.62,
+            34.5
+          ],
+          [
+            99.46,
+            34.8
+          ],
+          [
+            97.008,
+            33.005
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_amdo_oral_grassland",
+        "name_zh": "安多草原、寺院与口传传统线",
+        "name_en": "Amdo grassland, monastery and oral tradition route",
+        "region_key": "amdo",
+        "region_label": "Amdo / 安多",
+        "categories": [
+          "intangible_heritage",
+          "religious_site",
+          "sacred_landscape"
+        ],
+        "summary_short": "从拉卜楞到郎木寺、阿坝、果洛与玉树，展示安多南缘与草原口传传统的关系。",
+        "details": "此线为专题框架；格萨尔史诗等活态传统应避免被固定为单一地点。",
+        "source_ids": [
+          "unesco_gesar",
+          "thl_places",
+          "editorial_seed"
+        ],
+        "sensitivity": "approximate_only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.584,
+            34.152
+          ],
+          [
+            77.706,
+            34.165
+          ],
+          [
+            77.169,
+            34.224
+          ],
+          [
+            76.774,
+            34.281
+          ],
+          [
+            76.98,
+            33.48
+          ],
+          [
+            78.011,
+            32.298
+          ],
+          [
+            78.383,
+            32.093
+          ],
+          [
+            83.961,
+            29.183
+          ],
+          [
+            82.883,
+            29.22
+          ],
+          [
+            86.763,
+            27.836
+          ],
+          [
+            88.56,
+            27.289
+          ],
+          [
+            89.363,
+            27.491
+          ],
+          [
+            89.876,
+            27.591
+          ],
+          [
+            90.754,
+            27.564
+          ],
+          [
+            91.859,
+            27.585
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route_trans_himalaya_arc",
+        "name_zh": "跨喜马拉雅藏传文化弧线",
+        "name_en": "Trans-Himalayan Buddhist cultural arc",
+        "region_key": "himalayan",
+        "region_label": "Trans-Himalaya / 喜马拉雅藏传文化圈",
+        "categories": [
+          "religious_site",
+          "settlement",
+          "pilgrimage"
+        ],
+        "summary_short": "从拉达克、斯皮提、木斯塘、昆布、锡金、不丹到达旺的跨喜马拉雅阅读路径。",
+        "details": "这不是把所有区域等同为“西藏”，而是帮助用户理解藏传佛教、贸易、迁徙与山地文化联系。",
+        "source_ids": [
+          "thl_places",
+          "editorial_seed"
+        ],
+        "sensitivity": "public"
+      }
+    }
+  ]
+}
